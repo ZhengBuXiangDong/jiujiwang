@@ -1,0 +1,229 @@
+body {
+  font: 12px/1.5 "BlinkMacSystemFont", "-apple-system", "Microsoft YaHei UI", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif";
+  background-color: #f6f6f6;
+}
+
+.content {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+}
+header .content {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header .content img {
+  width: 100px;
+  height: 50px;
+}
+header .content span {
+  border-left: 2px solid #dfdfdf;
+  margin-left: 40px;
+  padding-left: 40px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 24px;
+  color: #c80f1e;
+}
+
+main .mainbox {
+  background: #fff url(../img/reg_bg.png) no-repeat right center;
+  border: solid 8px #f0f0f0;
+  min-height: 340px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+main .mainbox .regTab {
+  font-size: 16px;
+  color: #999;
+  background: #eee;
+  display: inline-block;
+  font-family: 'Microsoft YaHei';
+  overflow: hidden;
+}
+main .mainbox .regTab span {
+  cursor: pointer;
+  float: left;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-right: solid 1px #ddd;
+}
+main .mainbox .regTab .active {
+  border-top: solid 2px #c80f1e;
+  font-size: 16px;
+  color: #666;
+  background: #fff;
+}
+main .mainbox .login {
+  float: right;
+  margin: 10px 10px 0 0;
+  text-shadow: 0 1px 0 #fff;
+}
+main .mainbox .login a {
+  background: #9c3;
+  color: #fff;
+  margin-left: 5px;
+  padding: 2px;
+  text-shadow: none;
+}
+main .mainbox .login a:hover {
+  text-decoration: underline;
+}
+main .mainbox .reg dl {
+  line-height: 30px;
+  margin-top: 15px;
+  min-height: 30px;
+}
+main .mainbox .reg dl dt {
+  color: #999;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  width: 100px;
+}
+main .mainbox .reg dl dt i {
+  color: #f33;
+}
+main .mainbox .reg dl dd {
+  margin-left: 110px;
+}
+main .mainbox .reg dl dd input[type=text],
+main .mainbox .reg dl dd input[type=password] {
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  box-shadow: inset 0 2px #f3f3f3;
+  height: 28px;
+  line-height: 28px\9;
+  text-indent: 5px;
+  width: 240px;
+}
+main .mainbox .reg dl dd em {
+  color: #999;
+  margin-left: 10px;
+}
+main .mainbox .reg dl dd #getCode1,
+main .mainbox .reg dl dd #getCode2 {
+  margin-left: 10px;
+  border: 1px solid #dddddd;
+  padding: 0;
+  width: 106px;
+  height: 30px;
+  background: #f4f4f4;
+  margin-top: 0;
+  text-align: center;
+  line-height: 30px;
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+main .mainbox .reg dl dd #getCode1:hover,
+main .mainbox .reg dl dd #getCode2:hover {
+  color: #c80f1e;
+  text-decoration: underline;
+}
+main .mainbox .reg dl dd #mmprovision {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+main .mainbox .reg dl dd label {
+  color: #999;
+}
+main .mainbox .reg dl dd label a {
+  color: #39f;
+  margin: 0 5px;
+}
+main .mainbox .reg dl dd label a:hover {
+  text-decoration: underline;
+}
+main .mainbox .reg dl dd button {
+  background: #c80f1e;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 40px;
+  width: 160px;
+}
+main .mainbox .account {
+  display: none;
+}
+
+footer .foot-bottom .bottom-list {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-shadow: 0 1px 0 #fff;
+  justify-content: center;
+}
+footer .foot-bottom .bottom-list a {
+  height: 12px;
+  line-height: 11px;
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  transition: color .1s;
+  padding: 0 13px;
+  border-right: 2px solid #ddd;
+}
+footer .foot-bottom .bottom-list a:hover {
+  text-decoration: underline;
+  color: #c80f1e;
+}
+footer .foot-bottom .bottom-list a:first-child {
+  padding-left: 0;
+}
+footer .foot-bottom .bottom-list a:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+footer .foot-bottom .copy {
+  padding-bottom: 15px;
+  text-align: center;
+}
+footer .foot-bottom .copy p {
+  line-height: 25px;
+  color: #999;
+  text-shadow: 0 1px 0 #fff;
+}
+footer .foot-bottom .copy p a {
+  color: #333;
+  text-decoration: none;
+  transition: color .1s;
+}
+footer .foot-bottom .copy p a:hover {
+  text-decoration: underline;
+  color: #c80f1e;
+}
+footer .foot-bottom .bottom-link {
+  text-align: center;
+  height: 60px;
+}
+footer .foot-bottom .bottom-link a {
+  display: inline-block;
+  width: 130px;
+  height: 50px;
+  background: #fff;
+  border: solid 1px #eee;
+  border-radius: 3px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+footer .foot-bottom .bottom-link a:nth-child(1) {
+  background-image: url(../img/link5.jpg);
+}
+footer .foot-bottom .bottom-link a:nth-child(3) {
+  background-image: url(../img/link5.jpg);
+  background-position: 0 -100px;
+}
+
+/*# sourceMappingURL=register.css.map */

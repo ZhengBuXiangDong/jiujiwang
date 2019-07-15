@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="jiujicart">
+        <!-- 顶部信息 -->
+        <div class="top">
+            <div class="content">
+                <!-- 登录和注册 -->
+                <p class="loginText" id="loginText">
+                    <span>HI，欢迎来九机！</span>
+                    <a href="login.html" id="loginA" data-id='2'>登录</a>
+                    <a href="register.html">免费注册</a>
+                </p>
+                <!-- 顶部菜单 -->
+                <ul class="topManu">
+                    <li class="personOut li1">
+                        <a href="#" class="person">个人中心</a>
+                        <div class="erji person-show">
+                            <a href="###">我的订单</a>
+                            <a href="###">我的积分</a>
+                            <a href="###">我的试用</a>
+                            <a href="###">我的收藏</a>
+                            <a href="###">我的咨询</a>
+                            <a href="###">我的优惠券</a>
+                            <a href="###">报修/退换货</a>
+                        </div>
+
+                    </li>
+                    <li><a href="#" class="hy">会员俱乐部</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="khdLi li1">
+                        <a href="#" class="khd ">客户端</a>
+                        <div class="khd-show">
+                            <p class="left">
+                                <img src="../img/appdown.png">
+                                <span>扫描二维码下载</span>
+                            </p>
+                            <p class="right">
+                                <a href="###" title="下载安卓客户端">Android</a>
+                                <a href="###" title="下载iPhone客户端">iPhone</a>
+                                <a href="###" title="访问触屏版">触屏版</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li class="dhLi li1">
+                        <a href="#" class="dh ">网站导航</a>
+                        <div class="dh-show">
+                            <ul>
+                                <li>
+                                    <p class="title" style="color: orange">九机特色</p>
+                                    <a href="###">附近门店</a>
+                                    <a href="###">一手优品</a>
+                                    <a href="###">二手良品</a>
+                                    <a href="###">旧机回收</a>
+                                    <a href="###">预约维修</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: purple">服务集市</p>
+                                    <a href="###">在线支付</a>
+                                    <a href="###">话费充值</a>
+                                    <a href="###">试用中心</a>
+                                    <a href="###">帮助中心</a>
+                                    <a href="###">九机服务</a>
+                                    <a href="###">会员俱乐部</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #73ae37">更多精选</p>
+                                    <a href="###">九机头条</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #ff5050">产品选择</p>
+                                    <a href="###">手机</a>
+                                    <a href="###">手机配件</a>
+                                    <a href="###">电脑办公</a>
+                                    <a href="###">时尚影音</a>
+                                    <a href="###">智能家居</a>
+                                    <a href="###">娱乐竞技</a>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="jubao">不良信息举报</a></li>
+                    <li class="telLi li1">
+                        <a href="#" class="tel" style="color: #6b6b6b">400-008-3939</a>
+                        <div class="tel-show">
+                            <p>输入手机号码<span style="color: green">免费</span>拨打: </p>
+                            <input type="text">
+                            <button>拨打</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <div class="content">
+                <!-- 订单头部 -->
+                <div class="order-head">
+                    <img src="../img/new-logo.png" alt="">
+                    <div class="fr">
+                        <dl class="cur">
+                            <dt>1</dt>
+                            <dd>我的购物车</dd>
+                        </dl>
+                        <dl>
+                            <dt>2</dt>
+                            <dd>填写核对订单</dd>
+                        </dl>
+                        <dl>
+                            <dt>3</dt>
+                            <dd>付款</dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <!-- 购物车盒子 -->
+                <div class="cart-box">
+                    <!-- 标题 -->
+                    <div class="cart-tab">
+                        <a href="###" class="fl">全部商品 <span id="allpro">2</span></a>
+                        <p class="fr">已选 <span class="piece_num">0</span> 件，合计（不含运费）<b class="total_text">￥0.00</i>
+                            </b></p>
+                    </div>
+                    <!-- 商品列表 -->
+                    <section class="cartMain">
+                        <!-- 全选和操作 -->
+                        <div class="cartMain_hd">
+                            <ul class="order_lists cartTop">
+                                <li class="list_chk">
+                                    <!--所有商品全选-->
+                                    <input type="checkbox" id="all" class="whole_check">
+                                    <label for="all"></label>
+                                    全选
+                                </li>
+                                <li class="list_con">商品</li>
+                                <!-- <li class="list_info">商品参数</li> -->
+                                <li class="list_price">单价（元）</li>
+                                <li class="list_youhui">优惠（元）</li>
+                                <li class="list_amount">数量</li>
+                                <li class="list_sum">小计（元）</li>
+                                <li class="list_op">操作</li>
+                            </ul>
+                        </div>
+                        <!-- 购物车商品列表 -->
+                        <div class="cartBox">
+                            <div class="order_content">
+                                <!-- <ul class="order_lists">
+                                    <li class="list_chk">
+                                        <input type="checkbox" id="checkbox_2" class="son_check">
+                                        <label for="checkbox_2"></label>
+                                    </li>
+                                    <li class="list_con">
+                                        <div class="list_img"><a href="javascript:;"><img src="../img/moregood-li11.jpg"
+                                                    alt=""></a></div>
+                                        <div class="list_text"><a href="javascript:;">洛克 华为 P30 Pro 纳米防爆膜 前膜 </a>
+                                            <p><i class="fuwu"></i>选服务</p>
+                                        </div>
+                                        <br>
+
+                                    </li>
+                                    <li class="list_price">
+                                        <p class="price">￥980.00</p>
+                                    </li>
+                                    <li class="list_youhui">
+                                        <p class="youhui">0.00</p>
+                                    </li>
+                                    <li class="list_amount">
+                                        <div class="amount_box">
+                                            <a href="javascript:;" class="reduce reSty">-</a>
+                                            <input type="text" value="1" class="sum">
+                                            <a href="javascript:;" class="plus">+</a>
+                                        </div>
+                                    </li>
+                                    <li class="list_sum">
+                                        <p class="sum_price">￥980.00</p>
+                                    </li>
+                                    <li class="list_op">
+                                        <p class="del">
+                                            <a href="javascript:;" class="shoucang">移入收藏夹</a>
+                                            <a href="javascript:;" class="delBtn">删除</a>
+                                        </p>
+                                    </li>
+                                </ul> -->
+                            </div>
+                        </div>
+                        <!--底部-->
+                        <div class="bar-wrapper">
+                            <div class="bar-left fl">
+                                <!--所有商品全选-->
+                                <input type="checkbox" class="whole_check" id="allbtn2">
+                                <label for="allbtn2" id="bottomCheck"></label>
+                                全选
+                                <!-- 删除所有商品 -->
+                                <a href="javascript:;" id="delAll">删除</a>
+                            </div>
+                            <!-- <img class="fr" src="../css/img/erweima.png"> -->
+                            <div class="bar-right">
+                                <div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+                                <div class="totalMoney">总计（不含运费）： <strong class="total_text ">￥0.00</strong></div>
+                                <div class="calBtn"><a href="javascript:;">结算</a></div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="model_bg"></section>
+                    <section class="my_model">
+                        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+                        <p>您确认要删除该宝贝吗？</p>
+                        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;"
+                                class="dialog-close">关闭</a></div>
+                    </section>
+
+                    <!-- 底部 -->
+                </div>
+            </div>
+        </main>
+
+        <!-- footer底部 -->
+        <footer>
+            <!-- 最底部 -->
+            <div class="foot-bottom">
+                <div class="content">
+                    <!-- 底部的底部的导航 -->
+                    <div class="bottom-list">
+                        <a href="###">常见问题</a>
+                        <a href="###">供应商申请</a>
+                        <a href="###">配送服务</a>
+                        <a href="###">招聘信息</a>
+                        <a href="###">关于我们</a>
+                        <a href="###">联系我们</a>
+                        <a href="###">投诉建议</a>
+                        <a href="###">地区报价</a>
+                        <a href="###">IT服务</a>
+                    </div>
+
+                    <!-- 版本信息 -->
+                    <div class="copy">
+                        <p>各门店营业时间：周一至周日 09:00-21:30 &nbsp;&nbsp;&nbsp;&nbsp;
+                            全国服务热线：400-008-3939&nbsp;&nbsp; 0871-68393939&nbsp;&nbsp;&nbsp;&nbsp;
+                            工作时间：周一至周日 09:00-21:30
+                        </p>
+                        <p>
+                            网站ICP备案号：<a href="###">滇ICP备06002001号</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            电信业务经营许可证：滇B2-20180054号&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="###">滇公网安备 53010202000261号</a>
+                        </p>
+                        <p>Copyright © 2006 - 2019 九机网 All Rights Reserved</p>
+                        <p>云南九机信息技术有限公司版权所有</p>
+                    </div>
+
+                    <!-- 链接 -->
+                    <div class="bottom-link">
+                        <a href="###"><img src="../img/link1.jpg"></a>
+                        <a href="###"><img src="../img/link2.png"></a>
+                        <a href="###"><img src="../img/link3.png"></a>
+                        <a href="###"><img src="../img/link4.png"></a>
+                        <a href="###"></a>
+                        <a href="###"><img src="../img/link6.jpg"></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+    </div>
+
+</body>
+<script src="../lib/jquery-1.11.3.min.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/mycommon.js"></script>
+<!-- <script src="../js/carts.js"></script> -->
+<script src="../js/cart.js"></script>
+<script>
+    (function () {
+        function init() {
+            let username = $.cookie('username');
+            let html = '';
+            if (username) {
+                html = `
+                <span>Hi,<a href="###" title="进入个人中心">${username}</a></span>
+                <a href="###"><i class="userlevel" title="用户等级"></i></a>
+                <a href="###"><i class="userpoint" title="我的积分"></i>0</a>
+                <a href="###"><i class="massage" title="消息"></i></a>
+                <a href="###" id="signOut">退出</a>
+                `;
+            } else {
+                html = `
+                <span>HI，欢迎来九机！</span>
+                <a href="http://localhost:1905/jiuji/src/html/login.html" data-id='1' id="loginA">登录</a>
+                <a href="http://localhost:1905/jiuji/src/html/register.html">免费注册</a>
+                `;
+            }
+
+            $('.loginText').html(html);
+        }
+        init();
+
+        // 4.退出功能
+        $('.loginText').on('click', '#signOut', function () {
+            removeCookie('username');
+            setTimeout(function () {
+                init();
+            }, 500);
+            location.reload();
+        });
+    })();
+</script>
+
+</html>

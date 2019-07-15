@@ -1,0 +1,330 @@
+body {
+    background: #fff;
+}
+
+main {
+    min-height: 600px;
+
+    .order-head {
+        height: 100px;
+
+        img {
+            margin-top: 20px;
+            width: 100px;
+            height: 50px;
+        }
+
+        dl {
+            // background: #c80sf1e;
+            float: left;
+            background: #dfdfdf;
+            height: 8px;
+            width: 120px;
+            position: relative;
+            top: 30px;
+
+            dt {
+                width: 24px;
+                height: 24px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -12px;
+                margin-top: -12px;
+                line-height: 24px;
+                text-align: center;
+                background: #dfdfdf;
+                border: solid 1px #ccc;
+                border-radius: 100%;
+                font-size: 14px;
+            }
+
+            dd {
+                top: 24px;
+                left: 0;
+                text-align: center;
+                width: 100%;
+                position: absolute;
+            }
+        }
+
+        .cur {
+            background: #c80f1e;
+
+            dt {
+                background: #c80f1e;
+                border-color: #c80f1e;
+                color: #fff;
+            }
+
+            dd {
+                color: #c80f1e;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .cart-box {
+        .cart-tab {
+            height: 30px;
+            line-height: 30px;
+            border-bottom: solid 2px #dfdfdf;
+
+            .fl {
+                display: inline-block;
+                padding: 0 5px;
+                font-size: 15px;
+                text-decoration: none;
+                color: #c80f1e;
+                border-bottom: solid 2px #c80f1e;
+                height: 30px;
+            }
+
+            p {
+                span {
+                    color: #c80f1e;
+                }
+
+                b {
+                    color: #c80f1e;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .order_lists .list_chk label {
+        margin: 20px 0 0 24px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        padding: 1px;
+        border-width: 2px;
+        box-sizing: border-box;
+    }
+
+    .cartMain_hd .cartTop .list_chk label {
+        left: 0;
+        top: 17px;
+    }
+
+    .mark {
+        background-position: center;
+        border-color: #c80f1e;
+    }
+
+    .cartMain {
+        .order_lists {
+            // text-align: left;
+
+            .list_chk {
+                width: 50px;
+                text-indent: 20px;
+
+                input[type="checkbox"] {
+                    top: 18px;
+                    left: -2px;
+                    // border-radius: 50%;
+                    // border-width: 2px;
+                    // box-sizing: border-box;
+                }
+            }
+
+            .list_con {
+                padding-left: 104px;
+                width: 446px;
+                text-indent: 0;
+            }
+
+            .list_price,
+            .list_youhui,
+            .list_amount,
+            .list_sum {
+                width: 120px;
+            }
+
+            .list_op {
+                width: 120px;
+            }
+
+
+        }
+
+        .cartBox {
+            .order_content {
+                border: none;
+            }
+
+            .order_lists {
+                height: 110px;
+                margin-bottom: 10px;
+                border: solid 1px #dfdfdf;
+
+                li {
+                    height: auto;
+                    // margin-bottom: 10px;
+                }
+
+                .list_con {
+                    padding: 0;
+                    width: 550px;
+
+                    img {
+                        display: block;
+                        width: 78px;
+                        height: 78px;
+                        float: left;
+                        border: solid 1px #eee;
+                        position: relative;
+                        top: -5px
+                    }
+
+                    .list_text {
+                        margin-left: 22px;
+                        margin-top: 15px;
+
+                        a:hover {
+                            color: #c80f1e;
+                        }
+
+                        p {
+                            i {
+                                display: block;
+                                float: left;
+                                width: 16px;
+                                height: 17px;
+                                margin-right: 5px;
+                                background: url(../css/img/baoxiu.png) no-repeat center;
+                                background-size: contain;
+                            }
+
+                            cursor: pointer;
+                            margin-top: 10px;
+                            color: #999;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+
+                .list_chk {
+                    input[type="checkbox"] {
+                        position: relative;
+                        left: 0px;
+                        top: 16px;
+                    }
+
+                    label {
+                        // position: relative;
+                        margin: 0;
+                        top: 15px;
+                        left: -5px;
+
+                    }
+                }
+
+                .price,
+                .youhui,
+                .amount_box,
+                .sum_price,
+                .del {
+                    margin-top: 15px;
+                }
+
+                .amount_box {
+                    width: 80px;
+
+                    a {
+                        display: inline-block;
+                        width: 20px;
+                        height: 20px;
+                        text-align: center;
+                        line-height: 20px;
+                        border: solid 1px #dfdfdf;
+                        background: #f5f5f5;
+                        vertical-align: middle;
+                        text-decoration: none;
+                        color: #333;
+                        margin: 0 1px;
+                    }
+
+                    .sum {
+                        width: 32px;
+                        height: 22px;
+                        border: solid 1px #dfdfdf;
+                        margin-right: 5px;
+                        vertical-align: middle;
+                        text-align: center;
+                        box-sizing: border-box;
+                        background-color: #ebebe4;
+                        left: 24px;
+                    }
+                }
+
+                .list_sum p {
+                    color: #c80f1e
+                }
+
+                .list_op .del {
+                    a:hover {
+                        color: #c80f1e;
+                    }
+                }
+            }
+        }
+
+        .bar-wrapper {
+            position: static;
+            background-color: #f5f5f5;
+
+            .bar-left {
+                // margin-left: 10px;
+                height: 50px;
+                line-height: 50px;
+
+                input[type="checkbox"] {
+                    position: relative;
+                    left: 16px;
+                    bottom: -2px;
+                }
+
+                label {
+                    margin-left: 0;
+                    border-width: 2px;
+                    border-radius: 50%;
+                    position: relative;
+                    top: 3px;
+                }
+
+                a {
+                    margin-left: 20px;
+                    color: #333;
+                }
+
+                a:hover {
+                    color: #c80f1e;
+                }
+            }
+
+            .bar-right {
+                img {
+                    width: 20px;
+                    margin-right: 20px;
+                }
+
+                .piece_num,
+                .total_text {
+                    color: #c80f1e;
+                }
+            }
+
+        }
+    }
+}
+
+footer {
+    background: #f6f6f6;
+    margin-top: 40px;
+}

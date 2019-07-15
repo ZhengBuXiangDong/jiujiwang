@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录 - 九机网</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <div class="jiujiLogin">
+        <!-- 头部 -->
+        <header>
+            <div class="content">
+                <h1>
+                    <img src="../img/detail-logo.png">
+                </h1>
+                <span>欢迎登录</span>
+            </div>
+        </header>
+        <!-- 主要内容 -->
+        <main>
+            <div class="content">
+                <div class="loginBox">
+
+                    <!-- 选项卡 -->
+                    <div class="top">
+                        <a href="###"><span id="saoma" class="active">扫码登录</span></a>
+                        <i></i>
+                        <a href="###"> <span id="zhanghu">账户登录</span></a>
+                    </div>
+
+                    <!-- 中部 -->
+                    <div class="middle">
+                        <div class="box1" id="box1">
+                            <div class="erweima">
+                                <img src="../img/login_erweima.png">
+                            </div>
+                            <div class="tex">
+                                <i class="iconfont icon-richscan_icon"></i>
+                                <p>打开<span>九机APP</span>扫码登录</p>
+                            </div>
+                        </div>
+                        <div class="box2" id="box2">
+                            <div class="login-item">
+                                <i></i>
+                                <input type="text" placeholder="手机号码" id="tel">
+                            </div>
+                            <div class="login-item">
+                                <i class="i2"></i>
+                                <input type="password" placeholder="动态密码" id="pw">
+                                <div id="getCode">获取动态密码</div>
+                            </div>
+                            <!-- 用户名/手机号  密码  hongbao 短信验证码登录-->
+                            <div class="changeways">
+                                <a href="###" id="loginWay" class="typeOne"><i class="iconfont icon-tishi"></i>
+                                    账号密码登录</a>
+                                <a href="###">找回密码</a>
+                            </div>
+
+                            <div id="loginbtn">登 录</div>
+
+                        </div>
+                    </div>
+
+                    <!-- 底部 -->
+                    <div class=" bottom">
+                        <p>
+                            <a href="register.html">立即注册</a>
+                            <span>></span>
+                        </p>
+
+                        <div class="otherWay">
+                            <b></b>
+                            <span>其他方式登录九机</span>
+                            <b></b>
+                        </div>
+
+                        <div class="ways">
+                            <div class="ways-left">
+                                <a href="###"><i></i>QQ</a>
+                                <a href="###"><i class="i2"></i>微信</a>
+                            </div>
+                            <div class="ways-right">
+                                <span>三个月内免登陆</span>
+                                <div class="checked" id="checked">
+                                    <b></b>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer底部 -->
+        <footer>
+            <!-- 最底部 -->
+            <div class="foot-bottom">
+                <div class="content">
+                    <!-- 底部的底部的导航 -->
+                    <div class="bottom-list">
+                        <a href="###">常见问题</a>
+                        <a href="###">供应商申请</a>
+                        <a href="###">配送服务</a>
+                        <a href="###">招聘信息</a>
+                        <a href="###">关于我们</a>
+                        <a href="###">联系我们</a>
+                        <a href="###">投诉建议</a>
+                        <a href="###">地区报价</a>
+                        <a href="###">IT服务</a>
+                    </div>
+
+                    <!-- 版本信息 -->
+                    <div class="copy">
+                        <p>各门店营业时间：周一至周日 09:00-21:30 &nbsp;&nbsp;&nbsp;&nbsp;
+                            全国服务热线：400-008-3939&nbsp;&nbsp;
+                            工作时间：周一至周日 09:00-21:30
+                        </p>
+                        <p>
+                            网站ICP备案号：<a href="###">滇ICP备06002001号</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            电信业务经营许可证：滇B2-20180054号&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="###">滇公网安备 53010202000261号</a>
+                        </p>
+                        <p>Copyright © 2006 - 2019 九机网 All Rights Reserved</p>
+                        <p>云南九机信息技术有限公司版权所有</p>
+                    </div>
+
+                    <!-- 链接 -->
+                    <div class="bottom-link">
+                        <a href="###"><img src="../img/link1.jpg"></a>
+                        <a href="###"><img src="../img/link2.png"></a>
+                        <a href="###"><img src="../img/link3.png"></a>
+                        <a href="###"><img src="../img/link4.png"></a>
+                        <a href="###"></a>
+                        <a href="###"><img src="../img/link6.jpg"></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- 弹出框 -->
+        <div id="toast">用户名或密码为空了，请重新输入</div>
+    </div>
+
+
+</body>
+
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/jquery.cookie.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/login.js"></script>
+
+</html>

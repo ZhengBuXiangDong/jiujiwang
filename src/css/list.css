@@ -1,0 +1,412 @@
+header .header-top .search input:nth-child(1) {
+  border-color: #c80f1e;
+}
+header .header-top .search input:nth-child(2) {
+  top: 0px;
+  background-color: #c80f1e;
+  cursor: pointer;
+}
+header .header-nav ul .nav2 a {
+  font-size: 15.5px;
+}
+
+main {
+  margin-top: 0;
+}
+main .border {
+  border: 1px solid #dfdfdf;
+}
+main .box-title {
+  height: 35px;
+  background: #f3f3f3;
+  border-bottom: 1px solid #dfdfdf;
+  line-height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  text-shadow: 0 1px 0 #fff;
+}
+main .products {
+  display: flex;
+  justify-content: space-between;
+}
+main .products .proleft {
+  width: 220px;
+}
+main .products .proleft dt {
+  height: 35px;
+  line-height: 35px;
+  background: #f3f3f3;
+  padding: 0 10px 0 20px;
+}
+main .products .proleft dt i {
+  float: right;
+  width: 16px;
+  height: 16px;
+  line-height: 12px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #333;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+main .products .proleft .newCome {
+  margin-top: 10px;
+}
+main .products .proleft .newCome a {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .products .proleft .newCome a img {
+  width: 160px;
+  height: 160px;
+}
+main .products .proleft .newCome a p:nth-child(2) {
+  font-size: 14px;
+  color: red;
+}
+main .products .proleft .newCome a p:last-child {
+  width: 198px;
+  text-align: center;
+}
+main .products .proleft .newCome a p:last-child:hover {
+  color: red;
+}
+main .products .proright {
+  width: 960px;
+}
+main .products .proright .option .box-title b {
+  font-size: 16px;
+  color: #f21c1c;
+  font-weight: bolder;
+}
+main .products .proright .option .box-title span {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #9c9c9c;
+}
+main .products .proright .option .screening-box {
+  height: 280px;
+  overflow: hidden;
+}
+main .products .proright .option .screening-box .item {
+  display: flex;
+}
+main .products .proright .option .screening-box .item .itemleft {
+  width: 100px;
+  line-height: 40px;
+  height: 40px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: block;
+  color: #9c9c9c;
+}
+main .products .proright .option .screening-box .item .itemright {
+  border-bottom: 1px dashed #dfdfdf;
+  min-height: 30px;
+  padding-bottom: 8px;
+  margin-bottom: -1px;
+  width: 858px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .products .proright .option .screening-box .item .itemright a {
+  padding: 0 5px;
+  margin: 8px 3px 0;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+}
+main .products .proright .option .screening-box .item .itemright a:hover {
+  color: #f21c1c;
+}
+main .products .proright .option .screening-box .item .itemright .active {
+  background: #f21c1c;
+  color: #fff;
+}
+main .products .proright .option .screening-box .item .itemright .active:hover {
+  color: #fff;
+}
+main .products .proright .option .screening-box .item:last-child .itemright {
+  border-bottom: none;
+}
+main .products .proright #moreOption {
+  cursor: pointer;
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin: auto;
+  margin-top: -1px;
+  line-height: 30px;
+  text-align: center;
+  color: #f21c1c;
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #fff;
+}
+main .products .proright .sort-bar {
+  height: 40px;
+  background: #f3f3f3;
+  margin-top: 10px;
+  border: 1px solid #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .products .proright .sort-bar .sort {
+  display: flex;
+}
+main .products .proright .sort-bar .sort span {
+  cursor: pointer;
+  height: 20px;
+  padding: 0 20px;
+  border-right: 1px solid #dfdfdf;
+  display: flex;
+}
+main .products .proright .sort-bar .sort span b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  color: #999;
+  margin-left: 5px;
+}
+main .products .proright .sort-bar .sort span b i {
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+main .products .proright .sort-bar .sort span b .toTop {
+  border-bottom-color: #999;
+  margin-bottom: 2px;
+}
+main .products .proright .sort-bar .sort span b .toDown {
+  border-top-color: #999;
+}
+main .products .proright .sort-bar .sort span:last-child {
+  border-right: none;
+}
+main .products .proright .sort-bar .sort span:hover {
+  color: #f21c1c;
+}
+main .products .proright .sort-bar .sort .active {
+  font-weight: 700;
+  color: #c80f1e;
+}
+main .products .proright .sort-bar .sort .active:hover {
+  color: #c80f1e;
+}
+main .products .proright .sort-bar .in-stock {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+main .products .proright .sort-bar .in-stock i {
+  width: 14px;
+  height: 14px;
+  line-height: 12px;
+  text-align: center;
+  margin-right: 5px;
+  border: 1px solid #dcdfe6;
+  border-radius: 2px;
+  box-sizing: border-box;
+  background: #fff;
+  color: #fff;
+}
+main .products .proright .sort-bar .in-stock i:hover {
+  border-color: #f21c1c;
+}
+main .products .proright .sort-bar .price-section input {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0 2px;
+  text-align: center;
+}
+main .products .proright .sort-bar .price-section button {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  height: 27px;
+  padding: 0 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+main .products .proright .sort-bar .pagination {
+  padding-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .products .proright .sort-bar .pagination i {
+  width: 9px;
+  height: 14px;
+  cursor: pointer;
+  background: url(../css/img/pageNext.png) no-repeat center;
+  margin: 0 5px;
+}
+main .products .proright .sort-bar .pagination .pre {
+  background-image: url(../css/img/pagePre.png);
+}
+main .products .proright .proList .listBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .products .proright .proList .listBox li {
+  position: relative;
+  width: 200px;
+  margin: 7px;
+  padding: 10px;
+  height: 378px;
+  border: 3px solid transparent;
+  transition: all .3s;
+  position: relative;
+}
+main .products .proright .proList .listBox li:hover {
+  border-color: #dfdfdf;
+}
+main .products .proright .proList .listBox li:hover .tool {
+  display: block;
+}
+main .products .proright .proList .listBox li .quehuo {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  left: 10px;
+  top: 186px;
+  width: 200px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+main .products .proright .proList .listBox li .bigPic {
+  width: 200px;
+  height: 200px;
+}
+main .products .proright .proList .listBox li .smallPics {
+  margin-top: 5px;
+  display: flex;
+}
+main .products .proright .proList .listBox li .smallPics img {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #dfdfdf;
+  margin-right: 4px;
+}
+main .products .proright .proList .listBox li .smallPics .active {
+  border-color: #c80f1e;
+}
+main .products .proright .proList .listBox li .title {
+  width: 200px;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  transition: color .1s ease;
+  color: #333;
+}
+main .products .proright .proList .listBox li .title:hover {
+  color: red;
+}
+main .products .proright .proList .listBox li .price {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #f21c1c;
+  font-weight: bolder;
+}
+main .products .proright .proList .listBox li p {
+  color: #9c9c9c;
+}
+main .products .proright .proList .listBox li .tool {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+main .products .proright .proList .listBox li .tool a {
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2px 5px;
+  margin: 4px 0;
+  display: block;
+}
+main .products .proright .proList .listBox li .tool a:hover {
+  background: #c80f1e;
+}
+main .products .proright .proList .pageBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+main .products .proright .proList .pageBox .flex {
+  white-space: nowrap;
+  padding: 2px 5px;
+  color: #333;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+main .products .proright .proList .pageBox .flex span {
+  font-size: 13px;
+  min-width: 35.5px;
+  height: 28px;
+  line-height: 28px;
+  margin-right: 10px;
+  font-weight: 400;
+  color: #6b6b6b;
+}
+main .products .proright .proList .pageBox .flex button {
+  margin: 0 5px;
+  background-color: #f5f5f5;
+  color: #6b6b6b;
+  min-width: 30px;
+  height: 28px;
+  border: none;
+  border-radius: 2px;
+  font-family: serif;
+  font-weight: bolder;
+}
+main .products .proright .proList .pageBox .flex ul {
+  display: flex;
+}
+main .products .proright .proList .pageBox .flex ul li {
+  margin: 0 5px;
+  background-color: #f5f5f5;
+  color: #6b6b6b;
+  min-width: 30px;
+  border-radius: 2px;
+  padding: 0 4px;
+  display: inline-block;
+  font-size: 13px;
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-align: center;
+}
+main .products .proright .proList .pageBox .flex ul li:hover {
+  color: #f21c1c;
+}
+main .products .proright .proList .pageBox .flex ul .active {
+  background-color: #f21c1c;
+  color: #fff;
+}
+main .products .proright .proList .pageBox .flex ul .active:hover {
+  color: #fff;
+}
+
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,208 @@
+body {
+  background: #fff; }
+
+main {
+  min-height: 600px; }
+  main .order-head {
+    height: 100px; }
+    main .order-head img {
+      margin-top: 20px;
+      width: 100px;
+      height: 50px; }
+    main .order-head dl {
+      float: left;
+      background: #dfdfdf;
+      height: 8px;
+      width: 120px;
+      position: relative;
+      top: 30px; }
+      main .order-head dl dt {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -12px;
+        margin-top: -12px;
+        line-height: 24px;
+        text-align: center;
+        background: #dfdfdf;
+        border: solid 1px #ccc;
+        border-radius: 100%;
+        font-size: 14px; }
+      main .order-head dl dd {
+        top: 24px;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        position: absolute; }
+    main .order-head .cur {
+      background: #c80f1e; }
+      main .order-head .cur dt {
+        background: #c80f1e;
+        border-color: #c80f1e;
+        color: #fff; }
+      main .order-head .cur dd {
+        color: #c80f1e;
+        font-weight: bold; }
+  main .cart-box .cart-tab {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: solid 2px #dfdfdf; }
+    main .cart-box .cart-tab .fl {
+      display: inline-block;
+      padding: 0 5px;
+      font-size: 15px;
+      text-decoration: none;
+      color: #c80f1e;
+      border-bottom: solid 2px #c80f1e;
+      height: 30px; }
+    main .cart-box .cart-tab p span {
+      color: #c80f1e; }
+    main .cart-box .cart-tab p b {
+      color: #c80f1e;
+      font-weight: bold; }
+  main .order_lists .list_chk label {
+    margin: 20px 0 0 24px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+    border-width: 2px;
+    box-sizing: border-box; }
+  main .cartMain_hd .cartTop .list_chk label {
+    left: 0;
+    top: 17px; }
+  main .mark {
+    background-position: center;
+    border-color: #c80f1e; }
+  main .cartMain .order_lists .list_chk {
+    width: 50px;
+    text-indent: 20px; }
+    main .cartMain .order_lists .list_chk input[type="checkbox"] {
+      top: 18px;
+      left: -2px; }
+  main .cartMain .order_lists .list_con {
+    padding-left: 104px;
+    width: 446px;
+    text-indent: 0; }
+  main .cartMain .order_lists .list_price,
+  main .cartMain .order_lists .list_youhui,
+  main .cartMain .order_lists .list_amount,
+  main .cartMain .order_lists .list_sum {
+    width: 120px; }
+  main .cartMain .order_lists .list_op {
+    width: 120px; }
+  main .cartMain .cartBox .order_content {
+    border: none; }
+  main .cartMain .cartBox .order_lists {
+    height: 110px;
+    margin-bottom: 10px;
+    border: solid 1px #dfdfdf; }
+    main .cartMain .cartBox .order_lists li {
+      height: auto; }
+    main .cartMain .cartBox .order_lists .list_con {
+      padding: 0;
+      width: 550px; }
+      main .cartMain .cartBox .order_lists .list_con img {
+        display: block;
+        width: 78px;
+        height: 78px;
+        float: left;
+        border: solid 1px #eee;
+        position: relative;
+        top: -5px; }
+      main .cartMain .cartBox .order_lists .list_con .list_text {
+        margin-left: 22px;
+        margin-top: 15px; }
+        main .cartMain .cartBox .order_lists .list_con .list_text a:hover {
+          color: #c80f1e; }
+        main .cartMain .cartBox .order_lists .list_con .list_text p {
+          cursor: pointer;
+          margin-top: 10px;
+          color: #999; }
+          main .cartMain .cartBox .order_lists .list_con .list_text p i {
+            display: block;
+            float: left;
+            width: 16px;
+            height: 17px;
+            margin-right: 5px;
+            background: url(../css/img/baoxiu.png) no-repeat center;
+            background-size: contain; }
+          main .cartMain .cartBox .order_lists .list_con .list_text p:hover {
+            text-decoration: underline; }
+    main .cartMain .cartBox .order_lists .list_chk input[type="checkbox"] {
+      position: relative;
+      left: 0px;
+      top: 16px; }
+    main .cartMain .cartBox .order_lists .list_chk label {
+      margin: 0;
+      top: 15px;
+      left: -5px; }
+    main .cartMain .cartBox .order_lists .price,
+    main .cartMain .cartBox .order_lists .youhui,
+    main .cartMain .cartBox .order_lists .amount_box,
+    main .cartMain .cartBox .order_lists .sum_price,
+    main .cartMain .cartBox .order_lists .del {
+      margin-top: 15px; }
+    main .cartMain .cartBox .order_lists .amount_box {
+      width: 80px; }
+      main .cartMain .cartBox .order_lists .amount_box a {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border: solid 1px #dfdfdf;
+        background: #f5f5f5;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #333;
+        margin: 0 1px; }
+      main .cartMain .cartBox .order_lists .amount_box .sum {
+        width: 32px;
+        height: 22px;
+        border: solid 1px #dfdfdf;
+        margin-right: 5px;
+        vertical-align: middle;
+        text-align: center;
+        box-sizing: border-box;
+        background-color: #ebebe4;
+        left: 24px; }
+    main .cartMain .cartBox .order_lists .list_sum p {
+      color: #c80f1e; }
+    main .cartMain .cartBox .order_lists .list_op .del a:hover {
+      color: #c80f1e; }
+  main .cartMain .bar-wrapper {
+    position: static;
+    background-color: #f5f5f5; }
+    main .cartMain .bar-wrapper .bar-left {
+      height: 50px;
+      line-height: 50px; }
+      main .cartMain .bar-wrapper .bar-left input[type="checkbox"] {
+        position: relative;
+        left: 16px;
+        bottom: -2px; }
+      main .cartMain .bar-wrapper .bar-left label {
+        margin-left: 0;
+        border-width: 2px;
+        border-radius: 50%;
+        position: relative;
+        top: 3px; }
+      main .cartMain .bar-wrapper .bar-left a {
+        margin-left: 20px;
+        color: #333; }
+      main .cartMain .bar-wrapper .bar-left a:hover {
+        color: #c80f1e; }
+    main .cartMain .bar-wrapper .bar-right img {
+      width: 20px;
+      margin-right: 20px; }
+    main .cartMain .bar-wrapper .bar-right .piece_num,
+    main .cartMain .bar-wrapper .bar-right .total_text {
+      color: #c80f1e; }
+
+footer {
+  background: #f6f6f6;
+  margin-top: 40px; }
+
+/*# sourceMappingURL=cart.css.map */

@@ -1,0 +1,316 @@
+body {
+  font: 12px/1.5 "BlinkMacSystemFont", "-apple-system", "Microsoft YaHei UI", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-serif";
+  color: #333; }
+
+.content {
+  width: 980px;
+  margin: auto; }
+
+header {
+  width: 100%; }
+  header .content {
+    height: 80px;
+    display: flex;
+    align-items: center; }
+    header .content img {
+      width: 100px;
+      height: 50px; }
+    header .content span {
+      border-left: 1px solid #dfdfdf;
+      margin-left: 40px;
+      padding-left: 40px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 24px;
+      color: #f21c1c; }
+
+main {
+  height: 450px;
+  background: #000 url(../img/login-bg.jpg) no-repeat center top; }
+  main .loginBox {
+    position: relative;
+    float: right;
+    width: 350px;
+    height: 400px;
+    background: #fff;
+    margin-top: 25px; }
+    main .loginBox .top {
+      height: 50px;
+      border-bottom: 1px solid #dfdfdf;
+      display: flex; }
+      main .loginBox .top a {
+        flex: 1;
+        text-align: center; }
+        main .loginBox .top a span {
+          display: inline-block;
+          padding: 0 3px;
+          height: 50px;
+          line-height: 50px;
+          color: #333;
+          font-size: 16px;
+          box-sizing: border-box; }
+        main .loginBox .top a:hover span {
+          color: #f21c1c; }
+        main .loginBox .top a .active {
+          line-height: 48px;
+          color: #f21c1c;
+          border-bottom: 2px solid #f21c1c;
+          position: relative;
+          top: 1px; }
+      main .loginBox .top i {
+        border-right: 1px solid #dfdfdf;
+        height: 20px;
+        display: block;
+        margin-top: 15px; }
+    main .loginBox .middle .box1 {
+      display: flex;
+      height: 259px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      main .loginBox .middle .box1 .erweima {
+        width: 160px;
+        height: 160px;
+        border: 1px solid #dfdfdf;
+        margin: 20px 0;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        main .loginBox .middle .box1 .erweima img {
+          width: 140px;
+          height: 140px; }
+      main .loginBox .middle .box1 .tex {
+        display: flex;
+        font-size: 12px;
+        font-family: 'BlinkMacSystemFont'; }
+        main .loginBox .middle .box1 .tex i {
+          width: 16px;
+          height: 16px;
+          position: relative;
+          top: -1px;
+          font-size: 14px;
+          font-weight: bold; }
+        main .loginBox .middle .box1 .tex p {
+          margin-left: 5px; }
+          main .loginBox .middle .box1 .tex p span {
+            color: #f21c1c; }
+    main .loginBox .middle .box2 {
+      display: none;
+      margin: 50px 20px 0; }
+      main .loginBox .middle .box2 .login-item {
+        position: relative;
+        height: 36px;
+        border: 1px solid #dfdfdf;
+        margin-top: 16px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center; }
+        main .loginBox .middle .box2 .login-item i {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          background: url(../css/img/login-icon1.png) no-repeat center; }
+        main .loginBox .middle .box2 .login-item .i2 {
+          background-image: url(../css/img/login-icon2.png); }
+        main .loginBox .middle .box2 .login-item input {
+          flex: 1;
+          height: 34px;
+          border: none; }
+        main .loginBox .middle .box2 .login-item #getCode {
+          cursor: pointer;
+          width: 90px;
+          height: 100%;
+          background: #faf5f5;
+          border-left: 1px solid #dfdfdf;
+          text-align: center;
+          line-height: 36px; }
+          main .loginBox .middle .box2 .login-item #getCode:hover {
+            color: #f21c1c; }
+      main .loginBox .middle .box2 .changeways {
+        margin-top: 16px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        main .loginBox .middle .box2 .changeways a i {
+          font-size: 14px; }
+        main .loginBox .middle .box2 .changeways a:hover {
+          color: #f21c1c; }
+      main .loginBox .middle .box2 #loginbtn {
+        cursor: pointer;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        margin-top: 16px;
+        font-size: 14px;
+        background-color: #dfdfdf;
+        color: #fff; }
+    main .loginBox .bottom {
+      position: absolute;
+      left: 20px;
+      right: 20px;
+      bottom: 0;
+      height: 86px; }
+      main .loginBox .bottom p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        main .loginBox .bottom p span {
+          display: block;
+          height: 16px;
+          width: 16px;
+          line-height: 16px;
+          border-radius: 50%;
+          background-color: #6b6b6b;
+          color: #fff;
+          margin-left: 5px;
+          text-align: center;
+          font-family: serif;
+          font-weight: bolder;
+          font-size: 12px; }
+        main .loginBox .bottom p a {
+          color: #333; }
+        main .loginBox .bottom p:hover a {
+          color: #f21c1c; }
+      main .loginBox .bottom .otherWay {
+        display: flex;
+        height: 20px;
+        margin: 10px 0;
+        align-items: center; }
+        main .loginBox .bottom .otherWay span {
+          margin: 0 10px;
+          color: #9c9c9c; }
+        main .loginBox .bottom .otherWay b {
+          flex: 1;
+          height: 0;
+          border-bottom: 1px solid #dfdfdf; }
+      main .loginBox .bottom .ways {
+        height: 24px;
+        display: flex;
+        justify-content: space-between; }
+        main .loginBox .bottom .ways .ways-left {
+          display: flex;
+          align-items: center; }
+          main .loginBox .bottom .ways .ways-left a {
+            padding-right: 10px;
+            margin-right: 10px;
+            position: relative;
+            color: #333;
+            display: flex;
+            align-items: center; }
+            main .loginBox .bottom .ways .ways-left a i {
+              width: 24px;
+              height: 24px;
+              background: url(../css/img/qq.png) no-repeat center;
+              background-size: contain;
+              margin-right: 5px; }
+            main .loginBox .bottom .ways .ways-left a .i2 {
+              background-image: url(../css/img/weixin2.png);
+              background-size: 28px; }
+            main .loginBox .bottom .ways .ways-left a:hover {
+              color: #f21c1c; }
+            main .loginBox .bottom .ways .ways-left a:first-child::after {
+              content: "";
+              border-right: 1px solid #dfdfdf;
+              height: 12px;
+              display: block;
+              position: absolute;
+              right: 0;
+              top: 6px; }
+        main .loginBox .bottom .ways .ways-right {
+          display: flex;
+          align-items: center; }
+          main .loginBox .bottom .ways .ways-right div {
+            position: relative;
+            cursor: pointer;
+            margin-left: 5px;
+            padding: 1px;
+            box-sizing: border-box;
+            width: 40px;
+            height: 20px;
+            border-radius: 10px;
+            display: flex;
+            background: #f21c1c; }
+            main .loginBox .bottom .ways .ways-right div b {
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              background-color: #fff;
+              position: absolute;
+              right: 1px; }
+
+footer {
+  background-color: #f6f6f6;
+  padding: 20px 0; }
+  footer .foot-bottom .bottom-list {
+    height: 18px;
+    display: flex;
+    align-items: center;
+    text-shadow: 0 1px 0 #fff;
+    justify-content: center;
+    margin-bottom: 15px; }
+    footer .foot-bottom .bottom-list a {
+      height: 14px;
+      line-height: 14px;
+      display: inline-block;
+      color: #333;
+      text-decoration: none;
+      transition: color .1s;
+      padding: 0 19px;
+      border-right: 1px solid #ccc; }
+      footer .foot-bottom .bottom-list a:hover {
+        text-decoration: underline;
+        color: #c80f1e; }
+    footer .foot-bottom .bottom-list a:first-child {
+      padding-left: 0; }
+    footer .foot-bottom .bottom-list a:last-child {
+      border-right: none;
+      padding-right: 0; }
+  footer .foot-bottom .copy {
+    padding-bottom: 15px;
+    text-align: center; }
+    footer .foot-bottom .copy p {
+      line-height: 25px;
+      color: #999;
+      text-shadow: 0 1px 0 #fff; }
+      footer .foot-bottom .copy p a {
+        color: #333;
+        text-decoration: none;
+        transition: color .1s; }
+        footer .foot-bottom .copy p a:hover {
+          text-decoration: underline;
+          color: #c80f1e; }
+  footer .foot-bottom .bottom-link {
+    text-align: center;
+    height: 60px; }
+    footer .foot-bottom .bottom-link a {
+      display: inline-block;
+      width: 130px;
+      height: 50px;
+      background: #fff;
+      border: solid 1px #eee;
+      border-radius: 3px;
+      margin: 0 5px;
+      vertical-align: middle; }
+      footer .foot-bottom .bottom-link a:nth-child(5) {
+        background-image: url(../img/link5.jpg);
+        background-position: 0 -100px; }
+
+#toast {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 15px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.75);
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  display: none; }
+
+/*# sourceMappingURL=login.css.map */

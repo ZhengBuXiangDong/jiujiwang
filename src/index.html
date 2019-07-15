@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>九机网</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="jiuji">
+        <!-- 顶部广告 -->
+        <div id="topad">
+            <div class="content">
+                <a href="#" title="高考">
+                    <img src="img/top_ad.png">
+                </a>
+                <div id="adClose"></div>
+            </div>
+        </div>
+
+
+        <!-- 顶部信息 -->
+        <div class="top">
+            <div class="content">
+                <!-- 位置 -->
+                <p class="weizhi">
+                    <i></i>
+                    <a href="#">白云区</a>
+                </p>
+                <!-- 位置选项卡 -->
+                <div class='erji weizhi_show'>
+                    <i id="close"></i>
+                    <p class="hotCity">
+                        热门城市：
+                        <a href="###">昆明</a>
+                        <a href="###">大理</a>
+                        <a href="###">贵阳</a>
+                        <a href="###">长沙</a>
+                        <a href="###">南京</a>
+                        <a href="###">西安</a>
+                    </p>
+                    <div class="city-tab">
+                        <span class="tab">广东省</span>
+                        <span class="tab">广州市</span>
+                        <span class="tab active">白云区</span>
+                    </div>
+                    <div class="city-box">
+                        <ul id="city-name">
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                            <li><a href="###">北京市</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 登录和注册 -->
+                <p class="loginText" id="loginText">
+                    <span>HI，欢迎来九机！</span>
+                    <a href="html/login.html" data-id='1' id="loginA">登录</a>
+                    <a href="html/register.html">免费注册</a>
+
+                    <!-- <span>Hi,<a href="###" title="进入个人中心">15779791853</a></span>
+                    <a href="###"><i class="userlevel" title="用户等级"></i></a>
+                    <a href="###"><i class="userpoint" title="我的积分"></i>0</a>
+                    <a href="###"><i class="massage" title="消息"></i></a>
+                    <a href="###" id="signOut">退出</a> -->
+
+                </p>
+                <!-- 顶部菜单 -->
+                <ul class="topManu">
+                    <li class="personOut">
+                        <a href="#" class="person">个人中心</a>
+                        <div class="erji person-show">
+                            <a href="###">我的订单</a>
+                            <a href="###">我的积分</a>
+                            <a href="###">我的试用</a>
+                            <a href="###">我的收藏</a>
+                            <a href="###">我的咨询</a>
+                            <a href="###">我的优惠券</a>
+                            <a href="###">报修/退换货</a>
+                        </div>
+
+                    </li>
+                    <li><a href="#" class="hy">会员俱乐部</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="khdLi">
+                        <a href="#" class="khd">客户端</a>
+                        <div class="khd-show">
+                            <p class="left">
+                                <img src="img/appdown.png">
+                                <span>扫描二维码下载</span>
+                            </p>
+                            <p class="right">
+                                <a href="###" title="下载安卓客户端">Android</a>
+                                <a href="###" title="下载iPhone客户端">iPhone</a>
+                                <a href="###" title="访问触屏版">触屏版</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li class="dhLi">
+                        <a href="#" class="dh">网站导航</a>
+                        <div class="dh-show">
+                            <ul>
+                                <li>
+                                    <p class="title" style="color: orange">九机特色</p>
+                                    <a href="###">附近门店</a>
+                                    <a href="###">一手优品</a>
+                                    <a href="###">二手良品</a>
+                                    <a href="###">旧机回收</a>
+                                    <a href="###">预约维修</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: purple">服务集市</p>
+                                    <a href="###">在线支付</a>
+                                    <a href="###">话费充值</a>
+                                    <a href="###">试用中心</a>
+                                    <a href="###">帮助中心</a>
+                                    <a href="###">九机服务</a>
+                                    <a href="###">会员俱乐部</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #73ae37">更多精选</p>
+                                    <a href="###">九机头条</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #ff5050">产品选择</p>
+                                    <a href="###">手机</a>
+                                    <a href="###">手机配件</a>
+                                    <a href="###">电脑办公</a>
+                                    <a href="###">时尚影音</a>
+                                    <a href="###">智能家居</a>
+                                    <a href="###">娱乐竞技</a>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="jubao">不良信息举报</a></li>
+                    <li class="telLi">
+                        <a href="#" class="tel">400-008-3939</a>
+                        <div class="tel-show">
+                            <p>输入手机号码<span style="color: green">免费</span>拨打: </p>
+                            <input type="text">
+                            <button>拨打</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 头部 -->
+        <div class="header">
+            <div class="content">
+                <div class="con">
+
+                    <h1>九机网</h1>
+                    <div class="header-right">
+                        <div class="search">
+                            <p>
+                                <input type="text" id="serch-tex" placeholder="华为 P30">
+                                <input type="button" id="searchBtn" value="搜索">
+                            </p>
+                            <p>
+                                热门搜索：
+                                <a href="###">华为 P30</a>
+                                <a href="###">华为 nova 5</a>
+                                <a href="###">荣耀 20</a>
+                                <a href="###">iPhone XR</a>
+                                <a href="###">华为 mate 20</a>
+                                <a href="###">AirPods 2</a>
+                            </p>
+                        </div>
+                        <div class="header-nav">
+                            <ul>
+                                <li><a href="###">首页</a></li>
+                                <li><a href="###">旧手机回收</a></li>
+                                <li><a href="###">一手优品</a></li>
+                                <li><a href="###">二手良品</a></li>
+                                <li class="sh">
+                                    <a href="###">售后维修</a>
+                                    <div class="nav2">
+                                        <a href="###">售后公告</a>
+                                        <a href="###">常见问题</a>
+                                    </div>
+                                </li>
+                                <li class="hot">
+                                    <a href="###">九级头条</a>
+                                    <div class="nav2">
+                                        <a href="###">行业资讯</a>
+                                        <a href="###">数码评测</a>
+                                        <a href="###">手机导购</a>
+                                    </div>
+                                </li>
+                                <li><a href="###">人气排行</a></li>
+                                <li><a href="###">九机小店</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-car">
+                        <a href="html/cart.html">
+                            <i class="iconfont icon-gouwuche"></i>
+                            <span>购物车</span>
+                            <span id="goodNum">0</span>
+                        </a>
+                        <div class="car-show">
+                            <div class="car-nothing">
+                                <img src="img/car.png">
+                                <p>购物车里还没有商品</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="banner">
+            <div class="con">
+                <div class="content">
+                    <!-- 左边背景图 -->
+                    <div class="left-bg"></div>
+                    <!-- 右边背景图 -->
+                    <div class="right-bg"></div>
+                    <!-- 左边导航 -->
+                    <div class="left-nav">
+                        <ul id="nav-list">
+                            <li>
+                                <p>
+                                    <i class="icon "></i>
+                                    <a href="###">手机通讯</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">华为 P30</a>
+                                    <a href="###">三星 S10</a>
+                                    <a href="###">小米9</a>
+                                    <a href="###">华为 Mate20</a>
+                                    <a href="###">iPhone XR</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon i2"></i>
+                                    <a href="###">智能家居/智能健康</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">加湿器</a>
+                                    <a href="###">电动牙刷</a>
+                                    <a href="###">插座</a>
+                                    <a href="###">智能电视</a>
+                                    <a href="###">智能安防</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon i3"></i>
+                                    <a href="###">智能穿戴/智能出行</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">智能手表</a>
+                                    <a href="###">智能手环</a>
+                                    <a href="###">儿童手表</a>
+                                    <a href="###">车载充电器</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon i4"></i>
+                                    <a href="###">手机配件</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">保护膜</a>
+                                    <a href="###">保护壳</a>
+                                    <a href="###">数据线</a>
+                                    <a href="###">充电器</a>
+                                    <a href="###">移动电源</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon i5"></i>
+                                    <a href="###">手机办公</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">平板电脑</a>
+                                    <a href="###">轻薄本</a>
+                                    <a href="###">游戏本</a>
+                                    <a href="###">路由器</a>
+                                    <a href="###">键盘/鼠标</a>
+                                    <a href="###">U盘</a>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="icon i6"></i>
+                                    <a href="###">时尚影音/娱乐竞技</a>
+                                    <b>></b>
+                                </p>
+                                <div>
+                                    <a href="###">Beats</a>
+                                    <a href="###">SONY</a>
+                                    <a href="###">华为</a>
+                                    <a href="###">Bose</a>
+                                    <a href="###">智能语音</a>
+                                    <a href="###">无人机</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="nav-box" id="nav-box">
+                            <img src="img/banner_erji.png">
+                        </div>
+                    </div>
+                    <!-- 中间轮播图 -->
+                    <div class="middle-banner" id="banner">
+                        <!-- <img src="../images/list1.webp" alt=""> -->
+                        <!-- 轮播图 -->
+                        <ul class="listPic">
+                            <li><img src="img/banner1.jpg"> </li>
+                            <li><img src="img/banner2.jpg"> </li>
+                            <li><img src="img/banner3.jpg"> </li>
+                            <li><img src="img/banner4.jpg"> </li>
+                            <li><img src="img/banner5.jpg"> </li>
+                        </ul>
+                        <!-- 小圆点 -->
+                        <div class="cir">
+                            <span data-index="0" class="active"></span>
+                            <span data-index="1"></span>
+                            <span data-index="2"></span>
+                            <span data-index="3"></span>
+                            <span data-index="4"></span>
+                        </div>
+                        <!-- 按钮 -->
+                        <div id="btn1"></div>
+                        <div id="btn2"></div>
+                    </div>
+                    <!-- 右边小白框 -->
+                    <div class="right-side">
+                        <div class="user_login">
+                            <dl>
+                                <dt>
+                                    <img src="css/img/user_empty.png">
+                                </dt>
+                                <dd>
+                                    <p>九机网欢迎您~</p>
+                                    <p>
+                                        <a href="html/login.html">登录</a>
+                                        <a href="html/register.html">注册</a>
+                                    </p>
+                                </dd>
+                            </dl>
+                            <p class="p2">
+                                <a href="###">领取新人礼包</a>
+                                或前往
+                                <a href="###">会员俱乐部</a>
+                            </p>
+                        </div>
+                        <p class="toutiao">
+                            九机头条
+                            <span>更多 ></span>
+                        </p>
+                        <ul class="toutiao-box">
+                            <li class="topOne">
+                                <i>[公告]</i>
+                                <a href="###">《蜘蛛侠：英雄远征》观影会 | 华为nova5系列新机首销线下品鉴会</a>
+                            </li>
+                            <li>
+                                <i>[资讯]</i>
+                                <a href="###">华为nova 5系列正式发布！揭秘神秘麒麟810</a>
+                            </li>
+                            <li>
+                                <i>[资讯]</i>
+                                <a href="###">九机•热烈欢庆四店同开！！</a>
+                            </li>
+                        </ul>
+                        <p class="tese">
+                            特色服务
+                        </p>
+                        <ul class="tese-box">
+                            <li>
+                                <i class="icon-new"></i>
+                                <span>会员俱乐部</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>门店查询</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>二手良品</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>九机上门</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>九机回收</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>免费试用</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>签到赚积分</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>九机维修</span>
+                            </li>
+                            <li>
+                                <i></i>
+                                <span>延保/意外保</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 手机精品汇 -->
+        <div class="main-top">
+            <div class="content">
+                <!-- 高考热卖 -->
+                <div class="gaokao">
+                    <a href="###" title="高考-iPhone XR">
+                        <img src="img/gaokao1.png">
+                    </a>
+                    <a href="###" title="高考-mate20">
+                        <img src="img/gaokao2.png">
+                    </a>
+                    <a href="###" title="高考-华为P30">
+                        <img src="img/gaokao3.png">
+                    </a>
+                    <a href="###" title="高考-MacBook Air">
+                        <img src="img/gaokao4.png">
+                    </a>
+                    <a href="###" title="高考-小米电脑">
+                        <img src="img/gaokao5.png">
+                    </a>
+                </div>
+
+                <ul class="go_troika">
+                    <li>
+                        <h2></h2>
+                        <div class="box-out">
+                            <ul class="main-box">
+                                <li title="华为 P30 全网通版">
+                                    <h3>华为 P30 全网通版</h3>
+                                    <p>专享免息分期</p>
+                                    <img src="img/hw-P30.jpg" width="160" height="160" class="bigp">
+                                </li>
+                                <li title="红米 Redmi  K20 Pro 全网通版">
+                                    <h3>红米 Redmi K20 Pro 全网通版</h3>
+                                    <p>旗舰杀手 骁龙855</p>
+                                    <img src="img/hm-ss.jpg" width="80" height="80">
+                                </li>
+                                <li title="华为 荣耀 20 全网通版">
+                                    <h3>华为 荣耀 20 全网通版</h3>
+                                    <p>享200元换新补贴</p>
+                                    <img src="img/hw-ry.jpg" width="80" height="80">
+                                </li>
+                                <li title="一加手机7 Pro 全网通版">
+                                    <h3>一加手机7 Pro 全网通版</h3>
+                                    <p>官方授权 现货立购</p>
+                                    <img src="img/1j-7.jpg" width="80" height="80">
+                                </li>
+                                <li title="iPhone XR全网通版">
+                                    <h3>iPhone XR全网通版</h3>
+                                    <p>官网直降1300</p>
+                                    <img src="img/iPhone-XR.jpg" width="80" height="80">
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2></h2>
+                        <div class="box-out">
+                            <ul class="main-box">
+                                <li title="MacBook Pro 2019款">
+                                    <h3>MacBook Pro 2019款</h3>
+                                    <p>带触控栏和触控 ID</p>
+                                    <img src="img/dn-1.jpg" width="160" height="160" class="bigp">
+                                </li>
+                                <li title="iPad mini 2019款">
+                                    <h3>iPad mini 2019款</h3>
+                                    <p>价低官网 现货热销</p>
+                                    <img src="img/dn-2.jpg" width="80" height="80">
+                                </li>
+                                <li title="华硕 飞行堡垒7">
+                                    <h3>华硕 飞行堡垒7</h3>
+                                    <p>九代酷睿处理器</p>
+                                    <img src="img/dh-3.jpg" width="80" height="80">
+                                </li>
+                                <li title="荣耀MagicBook锐龙版  2019 款">
+                                    <h3>荣耀MagicBook锐龙版 2019 款</h3>
+                                    <p>微边框全金属机身</p>
+                                    <img src="img/dh-4.jpg" width="80" height="80">
+                                </li>
+                                <li title="微星 GF63  15.6英寸">
+                                    <h3>微星 GF63 15.6英寸</h3>
+                                    <p>轻薄窄边框</p>
+                                    <img src="img/dh-5.jpg" width="80" height="80">
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h2></h2>
+                        <div class="box-out">
+                            <ul class="main-box">
+                                <li title="华为FreeBuds无线耳机">
+                                    <h3>华为FreeBuds无线耳机</h3>
+                                    <p>智能语音 现货开售</p>
+                                    <img src="img/sm-1.png" width="160" height="160" class="bigp">
+                                </li>
+                                <li title="新款 AirPods 2代 蓝牙耳机">
+                                    <h3>新款 AirPods 2代 蓝牙耳机</h3>
+                                    <p>无线 无繁琐</p>
+                                    <img src="img/sm-2.jpg" width="80" height="80">
+                                </li>
+                                <li title="富士instax mini7s拍立得">
+                                    <h3>富士instax mini7s拍立得</h3>
+                                    <p>随拍随打印</p>
+                                    <img src="img/sm-3.jpg" width="80" height="80">
+                                </li>
+                                <li title="华为手环3">
+                                    <h3>华为手环3</h3>
+                                    <p>50米防水 彩色屏幕</p>
+                                    <img src="img/sm-4.jpg" width="80" height="80">
+                                </li>
+                                <li title="华为智能AI音箱">
+                                    <h3>华为智能AI音箱</h3>
+                                    <p>语音控制家居</p>
+                                    <img src="img/sm-5.png" width="80" height="80">
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 售后 -->
+        <div class="shouhou">
+            <div class="content">
+                <div class="left">
+                    <img src="img/shouhou1-2.png">
+                </div>
+                <div class="right">
+                    <img src="img/shouhou2-2.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- main数据渲染部分 -->
+        <div class="main">
+            <div class="content">
+                <!-- 超优惠 -->
+                <div class="main-discount divs" id="discount">
+                    <img src="img/chaoyouhui-title.png" class="title">
+                    <ul>
+                        <li class="free-trial">
+                            <h2>
+                                <img src="img/free-title.png">
+                            </h2>
+                            <div class="discount-list">
+                                <div>
+                                    <h3>绿巨能 变速散热底座</h3>
+                                    <p>防滑设计、轻巧便携、人体吹风、桌面风扇</p>
+                                    <img src="img/free-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>锐思 PD+QC 双口充电器</h3>
+                                    <p>快速充电 双口输出 折叠便携</p>
+                                    <img src="img/free-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>维他命迷你便携榨汁杯</h3>
+                                    <p>迷你便携 无线鲜榨 随时随地喝果汁</p>
+                                    <img src="img/free-3.jpg">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="flash-sale">
+                            <h2>
+                                <img src="img/flash-title.png">
+                            </h2>
+                            <div class="discount-list h3">
+                                <div>
+                                    <h3>iPhone X 全网通版【银色 64GB 】</h3>
+                                    <p>￥5899.00</p>
+                                    <img src="img/flash-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>iPhone XR全网通版【黑色 64GB 】</h3>
+                                    <p>￥4799.00</p>
+                                    <img src="img/flash-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>LIDIAN 苹果 iPhone X/XS TPU 保护壳</h3>
+                                    <p>￥9.90</p>
+                                    <img src="img/flash-3.jpg">
+                                </div>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 机友派 -->
+                <div class="jiyoupai floor divs">
+                    <img src="img/jiyoupai-title.png" class="title">
+                    <!-- 一楼手机 -->
+                    <div class="phone floor-box divs" id="frist">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-1.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>iPhone X 全网通版</h3>
+                                    <p>超值特惠 火热销售</p>
+                                    <a href="###">iPhone X 64G 银色 <em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">快速充电</a>
+                                        <a href="###">拍照神器</a>
+                                        <a href="###">全面屏</a>
+                                        <a href="###">面部解锁</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li3.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li6.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 全网通版</h3>
+                                    <p>超视网膜显示屏</p>
+                                    <span>￥7499.00</span>
+                                    <img src="img/phone-li9.jpg">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>华为 荣耀 20i 全网通版</h3>
+                                    <p>专享免息分期</p>
+
+                                    <img src="img/phone-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>小米9 SE 全网通</h3>
+                                    <p>价低官网 爆款现货</p>
+
+                                    <img src="img/phone-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>华为畅享9 全网通高配版</h3>
+                                    <p>精致外观 强悍性能</p>
+
+                                    <img src="img/phone-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>三星 S10 全网通版</h3>
+                                    <p>专享免息分期</p>
+
+                                    <img src="img/phone-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">苹果</a>
+                            <a href="###">华为</a>
+                            <a href="###">荣耀</a>
+                            <a href="###">小米</a>
+                            <a href="###">三星</a>
+                            <a href="###">OPPO</a>
+                            <a href="###">vivo</a>
+                            <a href="###">美图</a>
+                            <a href="###">魅族</a>
+                            <a href="###">一加</a>
+                        </div>
+                    </div>
+
+                    <!-- 二楼手机配件 -->
+                    <div class="phone floor-box divs" id="second">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-2.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>乐物MFI认证快充线</h3>
+                                    <p>半小时从0充到50%</p>
+                                    <a href="###">苹果MFI认证快充 <em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">保护壳</a>
+                                        <a href="###">保护膜</a>
+                                        <a href="###">移动电源</a>
+                                        <a href="###">数据线</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>锐思 PD+QC充电器</h3>
+                                    <p>PD快充 小巧便携</p>
+                                    <span>￥89.00</span>
+                                    <img src="img/peijian-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>iPhone XS Max 3D钢化膜</h3>
+                                    <p>3D全屏防刮防爆</p>
+                                    <span>￥189.00</span>
+                                    <img src="img/peijian-li3.png">
+                                </li>
+                                <li>
+                                    <h3>华为 原装 9V2A 充电套装</h3>
+                                    <p>华为品质 安全高效</p>
+                                    <span>￥69.00</span>
+                                    <img src="img/peijian-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>乐物 iPhone XS/X 3D钢化膜</h3>
+                                    <p>防刮防爆防指纹</p>
+                                    <span>￥189.00</span>
+                                    <img src="img/peijian-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>乐物 10000mAh 移动电源</h3>
+                                    <p>双输入 双输出</p>
+                                    <span>￥99.00</span>
+                                    <img src="img/peijian-li6.jpg">
+                                </li>
+                                <li>
+                                    <h3>摩可 华为nova 4/荣耀V20/荣耀magic2 钢化膜</h3>
+                                    <p>裸机手感 经久耐用</p>
+                                    <span>￥79.00</span>
+                                    <img src="img/peijian-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>苹果内配原装耳机</h3>
+                                    <p>内配原装耳机</p>
+                                    <span>￥129.00</span>
+                                    <img src="img/peijian-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>乐物 iPhone XR 3D钢化膜</h3>
+                                    <p>3D覆盖防刮防爆</p>
+                                    <span>￥169.00</span>
+                                    <img src="img/peijian-li9.png">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>乐物 一拖三 编织充电线</h3>
+                                    <p>三线合一 方便使用</p>
+
+                                    <img src="img/peijian-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>华为三脚架自拍杆</h3>
+                                    <p>伸缩自如 蓝牙遥控</p>
+
+                                    <img src="img/peijian-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>华为40W超级快充移动电源</h3>
+                                    <p>40W超级快充</p>
+
+                                    <img src="img/peijian-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>TOTU iPhone X/XS 防摔保护壳</h3>
+                                    <p>防刮耐磨 手感舒适</p>
+
+                                    <img src="img/peijian-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">苹果保护壳</a>
+                            <a href="###">品牌保护壳</a>
+                            <a href="###">平板保护壳</a>
+                            <a href="###">苹果保护膜</a>
+                            <a href="###">品牌保护膜</a>
+                            <a href="###">平板保护膜</a>
+                            <a href="###">移动电源</a>
+                            <a href="###">数据线</a>
+                            <a href="###">充电器</a>
+                            <a href="###">手机耳机</a>
+                            <a href="###">手机周边</a>
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- 三楼电脑办公 -->
+                    <div class="phone floor-box divs" id="third">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-3.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>荣耀 锐龙版 2019款 </h3>
+                                    <p>高效散热 指纹解锁</p>
+                                    <a href="###">荣耀MagicBook锐龙版<em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">平板电脑</a>
+                                        <a href="###">苹果电脑</a>
+                                        <a href="###">办公设备</a>
+                                        <a href="###">电脑外设</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>iPad 2018款 wifi版</h3>
+                                    <p>9.7英寸 A10芯片</p>
+                                    <span>￥2199.00</span>
+                                    <img src="img/diannao-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>联想 拯救者Y7000</h3>
+                                    <p>高色域吃鸡本</p>
+                                    <span>￥6599.00</span>
+                                    <img src="img/diannao-li3.jpg">
+                                </li>
+                                <li>
+                                    <h3>华硕 飞行堡垒7</h3>
+                                    <p>九代酷睿处理器</p>
+                                    <span>￥6299.00</span>
+                                    <img src="img/diannao-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>三星 27英寸 曲面显示器</h3>
+                                    <p>大屏曲面 震撼体验</p>
+                                    <span>￥1050.00</span>
+                                    <img src="img/diannao-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>Kindle 青春版</h3>
+                                    <p>纤薄机身，超长续航</p>
+                                    <span>￥658.00</span>
+                                    <img src="img/diannao-li6.jpg">
+                                </li>
+                                <li>
+                                    <h3>华为MateBook E 2019款</h3>
+                                    <p>高清触屏 一碰传</p>
+                                    <span>￥3999.00</span>
+                                    <img src="img/diannao-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>联想 小新14英寸</h3>
+                                    <p>更快更薄 八代酷睿</p>
+                                    <span>￥4899.00</span>
+                                    <img src="img/diannao-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>Macbook Pro 2019款</h3>
+                                    <p>带触控栏触控 ID</p>
+                                    <span>￥12499.00</span>
+                                    <img src="img/diannao-li9.jpg">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>iPad Air 2019款</h3>
+                                    <p>10.5 英寸 A12处理器</p>
+
+                                    <img src="img/diannao-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>360家庭防火墙路由器5S</h3>
+                                    <p>智能硬件防侵入</p>
+
+                                    <img src="img/diannao-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>华硕165Hz刷新 显示器</h3>
+                                    <p>165Hz刷新</p>
+
+                                    <img src="img/diannao-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>RK 950 机械键盘</h3>
+                                    <p>游戏利器 手感舒适</p>
+
+                                    <img src="img/diannao-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">iPad</a>
+                            <a href="###">平板</a>
+                            <a href="###">二合一笔记本</a>
+                            <a href="###">游戏本</a>
+                            <a href="###">投影仪</a>
+                            <a href="###">新款Surface</a>
+                            <a href="###">品质鼠标</a>
+                            <a href="###">机械键盘</a>
+                            <a href="###">高速U盘</a>
+                            <a href="###">上门服务</a>
+                        </div>
+                    </div>
+
+                    <!-- 四楼时尚影音/娱乐竞技 -->
+                    <div class="phone floor-box divs" id="fourth">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-4.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>华为FreeBuds无线耳机 </h3>
+                                    <p>智能语音 现货开售</p>
+                                    <a href="###">华为freebuds无线耳机<em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">耳机耳麦</a>
+                                        <a href="###">音箱音响</a>
+                                        <a href="###">无人机</a>
+                                        <a href="###">益智早教</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>大疆 口袋云台相机</h3>
+                                    <p>快拍快剪,精彩即现</p>
+                                    <span>￥2499.00</span>
+                                    <img src="img/shishang-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>华为mini 蓝牙音箱</h3>
+                                    <p>乐动听 悦随行</p>
+                                    <span>￥129.00</span>
+                                    <img src="img/shishang-li3.png">
+                                </li>
+                                <li>
+                                    <h3>FreeLace 蓝牙耳机</h3>
+                                    <p>快充闪连 18h续航</p>
+                                    <span>￥499.00</span>
+                                    <img src="img/shishang-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>哈曼卡顿便携版智能音箱</h3>
+                                    <p>经典音质 便携小巧</p>
+                                    <span>￥1799.00</span>
+                                    <img src="img/shishang-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>华为智能AI音箱</h3>
+                                    <p>语音控制家居</p>
+                                    <span>￥399.00</span>
+                                    <img src="img/shishang-li6.png">
+                                </li>
+                                <li>
+                                    <h3>大疆 御Mavic 2 新一代无人机</h3>
+                                    <p>可折叠无人机</p>
+                                    <span>￥9888.00</span>
+                                    <img src="img/shishang-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>猪小屁 故事机</h3>
+                                    <p>趣味学舌 智能点播</p>
+                                    <span>￥99.00</span>
+                                    <img src="img/shishang-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>小猪佩奇迷你钢琴</h3>
+                                    <p>迷你钢琴 寓教于乐</p>
+                                    <span>￥129.00</span>
+                                    <img src="img/shishang-li9.jpg">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>华为FreeBuds 悦享版</h3>
+                                    <p>智慧触控悦享无线</p>
+
+                                    <img src="img/shishang-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>JBL Charge4蓝牙音箱</h3>
+                                    <p>Type-C接口 充电更方便</p>
+
+                                    <img src="img/shishang-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>Bose QC35 II主动降噪耳机</h3>
+                                    <p>主动降噪 纯净音质</p>
+
+                                    <img src="img/shishang-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>Bos SoundSport Free蓝牙耳机</h3>
+                                    <p>专为运动设计</p>
+
+                                    <img src="img/shishang-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">beats耳机</a>
+                            <a href="###">JBL音响</a>
+                            <a href="###">大疆无人机</a>
+                            <a href="###">益智早教</a>
+                        </div>
+                    </div>
+
+                    <!-- 五楼智能家居/智能健康 -->
+                    <div class="phone floor-box divs" id="fifth">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-5.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>华为720空气净化器</h3>
+                                    <p>高等级滤芯 高精度检测</p>
+                                    <a href="###">华为720全效空气净化器 <em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">智能电视</a>
+                                        <a href="###">创意生活</a>
+                                        <a href="###">个人护理</a>
+                                        <a href="###">智能插座</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>几素 自然风充电风扇</h3>
+                                    <p>空气循环 健康舒适</p>
+                                    <span>￥129.00</span>
+                                    <img src="img/zhineng-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>罗曼 T7电动牙刷</h3>
+                                    <p>一体机身 7级防水</p>
+                                    <span>￥299.00</span>
+                                    <img src="img/zhineng-li3.jpg">
+                                </li>
+                                <li>
+                                    <h3>米家互联网空调C1 一级能效</h3>
+                                    <p>变频技术 自动清洁</p>
+                                    <span>￥2499.00</span>
+                                    <img src="img/zhineng-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>罗曼L11电动牙刷情侣套装</h3>
+                                    <p>情侣套装浪漫定制</p>
+                                    <span>￥399.00</span>
+                                    <img src="img/zhineng-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>Yeelight迷你充电台灯</h3>
+                                    <p>清新颜值 超长续航</p>
+                                    <span>￥79.00</span>
+                                    <img src="img/zhineng-li6.jpg">
+                                </li>
+                                <li>
+                                    <h3>鹿客Classic指纹锁</h3>
+                                    <p>活体指纹 数字加密</p>
+                                    <span>￥1699.00</span>
+                                    <img src="img/zhineng-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>德尔玛 Deerma 加湿器</h3>
+                                    <p>净化加湿 恒湿控制</p>
+                                    <span>￥159.00</span>
+                                    <img src="img/zhineng-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>维他命迷你榨汁杯</h3>
+                                    <p>自动清洗 无线鲜榨</p>
+                                    <span>￥168.00</span>
+                                    <img src="img/zhineng-li9.jpg">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>公牛 USB开关插座</h3>
+                                    <p>智能分流 独立开关</p>
+
+                                    <img src="img/zhineng-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>特洛克柠萌插线板</h3>
+                                    <p>创意圆形排插</p>
+
+                                    <img src="img/zhineng-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>SKG按摩器有线</h3>
+                                    <p>多位按摩 同步热敷</p>
+
+                                    <img src="img/zhineng-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>飞利浦 电动剃须刀</h3>
+                                    <p>全身水洗 三刀头</p>
+
+                                    <img src="img/zhineng-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">公牛插座</a>
+                            <a href="###">加湿设备</a>
+                            <a href="###">电视盒子</a>
+                            <a href="###">按摩设备</a>
+                        </div>
+                    </div>
+
+                    <!-- 六楼智能穿戴/智能出行 -->
+                    <div class="phone floor-box divs" id="sixth">
+                        <!-- 楼层标题 -->
+                        <h2>
+                            <img src="img/floor-6.png">
+                        </h2>
+                        <!-- 楼层主要内容框 -->
+                        <div class="floor-list">
+                            <!-- 内容框左边 -->
+                            <div class="floor-left">
+                                <div class="top">
+                                    <h3>华为手环3Pro</h3>
+                                    <p>独立GPS 50米防水</p>
+                                    <a href="###">华为手环3 Pro <em>></em></a>
+                                </div>
+                                <dl class="bottom">
+                                    <dt>热销榜</dt>
+                                    <dd>
+                                        <a href="###">智能手环</a>
+                                        <a href="###">儿童手表</a>
+                                        <a href="###">蓝牙耳机</a>
+                                        <a href="###">平衡车</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <!-- 内容框中间 -->
+                            <ul class="floor-middle">
+                                <li>
+                                    <h3>小天才Z6</h3>
+                                    <p>AI智能识物识单词</p>
+                                    <span>￥1598.00</span>
+                                    <img src="img/chuandai-li2.jpg">
+                                </li>
+                                <li>
+                                    <h3>华为WATCH GT 智能手表</h3>
+                                    <p>高清大屏 纤薄机身</p>
+                                    <span>￥1288.00</span>
+                                    <img src="img/chuandai-li3.jpg">
+                                </li>
+                                <li>
+                                    <h3>洛克 手机支架万向球款</h3>
+                                    <p>重力感应一放即合</p>
+                                    <span>￥49.00</span>
+                                    <img src="img/chuandai-li4.jpg">
+                                </li>
+                                <li>
+                                    <h3>先科 双USB数显车载充电器</h3>
+                                    <p>纯铜机身 自动识别</p>
+                                    <span>￥69.00</span>
+                                    <img src="img/chuandai-li5.jpg">
+                                </li>
+                                <li>
+                                    <h3>小米手环4</h3>
+                                    <p>全新真彩屏</p>
+                                    <span>￥189.00</span>
+                                    <img src="img/chuandai-li6.png">
+                                </li>
+                                <li>
+                                    <h3>科大讯飞翻译机2.0</h3>
+                                    <p>实时互译 口语学习</p>
+                                    <span>￥2999.00</span>
+                                    <img src="img/chuandai-li7.jpg">
+                                </li>
+                                <li>
+                                    <h3>小米行车记录仪1S</h3>
+                                    <p>本地语音控制</p>
+                                    <span>￥349.00</span>
+                                    <img src="img/chuandai-li8.jpg">
+                                </li>
+                                <li>
+                                    <h3>临时停车号码牌</h3>
+                                    <p>有效保护车主隐私</p>
+                                    <span>￥49.00</span>
+                                    <img src="img/chuandai-li9.jpg">
+                                </li>
+                            </ul>
+
+                            <!-- 内容框右边 -->
+                            <div class="floor-right">
+                                <div>
+                                    <h3>Apple Watch Series 4 铝金属系列GPS版</h3>
+                                    <p>唤醒更好的你</p>
+
+                                    <img src="img/chuandai-li10-1.jpg">
+                                </div>
+                                <div>
+                                    <h3>沃影T8后视镜记录仪</h3>
+                                    <p>全面屏行车记录</p>
+
+                                    <img src="img/chuandai-li10-2.jpg">
+                                </div>
+                                <div>
+                                    <h3>三星 Galaxy Watch智能手表</h3>
+                                    <p>熄屏显示 一目了然</p>
+
+                                    <img src="img/chuandai-li10-3.jpg">
+                                </div>
+                                <div>
+                                    <h3>米家电动滑板车Pro</h3>
+                                    <p>超长续航 强劲动力</p>
+
+                                    <img src="img/chuandai-li10-4.jpg">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- 楼层底部导航 -->
+                        <div class="floor-link">
+                            <span>品质推荐</span>
+                            <a href="###">华为手表</a>
+                            <a href="###">小米手环</a>
+                            <a href="###">米家滑板车</a>
+                            <a href="###">小天才儿童手表</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 更多好货 -->
+                <div class="moreGood divs" id="moreGood">
+                    <img src="img/more-title.png" class="title">
+                    <div class="goodCommodity">
+                        <ul id="moreGood-box">
+                            <li>
+                                <img src="img/moregood-li1.jpg">
+                                <p class="p-title">nova 4e</p>
+                                <p class="p-price">￥1799</p>
+                            </li>
+                            <li><img src="img/moregood-li2.jpg">
+                                <p class="p-title">三星 S10</p>
+                                <p class="p-price">￥5999</p>
+                            </li>
+                            <li><img src="img/moregood-li3.jpg">
+                                <p class="p-title">iphone XR</p>
+                                <p class="p-price">￥4899</p>
+                            </li>
+                            <li><img src="img/moregood-li4.jpg">
+                                <p class="p-title">AirPods 2代</p>
+                                <p class="p-price">￥1230</p>
+                            </li>
+                            <li><img src="img/moregood-li5.jpg">
+                                <p class="p-title">飞利浦电动牙刷HX6730</p>
+                                <p class="p-price">￥399</p>
+                            </li>
+                            <li><img src="img/moregood-li6.jpg">
+                                <p class="p-title">iPad 2018款</p>
+                                <p class="p-price">￥2199</p>
+                            </li>
+                            <li><img src="img/moregood-li7.jpg">
+                                <p class="p-title">华为 AM116 半入耳式 线控耳机</p>
+                                <p class="p-price">￥69</p>
+                            </li>
+                            <li><img src="img/moregood-li8.jpg">
+                                <p class="p-title">畅享9 Plus</p>
+                                <p class="p-price">￥1499</p>
+                            </li>
+                            <li><img src="img/moregood-li9.jpg">
+                                <p class="p-title">Mate 20 Pro</p>
+                                <p class="p-price">￥4899</p>
+                            </li>
+                            <li><img src="img/moregood-li10.jpg">
+                                <p class="p-title">MacBook Air 2018款</p>
+                                <p class="p-price">￥8299</p>
+                            </li>
+                        </ul>
+                        <span id="loadmore">加载更多好物</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer底部 -->
+        <footer>
+            <!-- 承诺 -->
+            <div class="promise">
+                <div class="content">
+                    <div>
+                        <i></i>
+                        <h4>新九机 心生态</h4>
+                        <p>全新九机 用心可见</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>售假退一罚三</h4>
+                        <p>我们承诺，只做正品</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>90分钟极速达</h4>
+                        <p>自建物流，直达客户</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>上门快修</h4>
+                        <p>线上预约维修，在线评估故障</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>门店保障</h4>
+                        <p>实体购物，更加安心</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 底部导航 -->
+            <div class="foot-nav">
+                <div class="content">
+                    <dl>
+                        <dt>新手指南</dt>
+                        <dd>
+                            <a href="###">会员注册与使用</a>
+                            <a href="###">九机测评</a>
+                            <a href="###">积分介绍</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>付款方式</dt>
+                        <dd>
+                            <a href="###">在线支付</a>
+                            <a href="###">分期介绍</a>
+                            <a href="###">退款介绍</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>配送方式</dt>
+                        <dd>
+                            <a href="###">到店自取</a>
+                            <a href="###">送货上门</a>
+                            <a href="###">快递运输</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>
+                            <a href="###">售后服务政策</a>
+                            <a href="###">维修质保政策</a>
+                            <a href="###">九机服务</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>交易中心</dt>
+                        <dd>
+                            <a href="###">常见问题解答</a>
+                            <a href="###">会员介绍</a>
+                            <a href="###">交易条款</a>
+                        </dd>
+                    </dl>
+                    <div class="foot-sns">
+                        <div class="div1">
+                            <i></i>
+                            <h4>九机网官方微信</h4>
+                            <p>扫描二维码，即刻调戏小九，更多精彩活动等着您哦！</p>
+                        </div>
+
+                        <div class="div2">
+                            <a href="###">新浪微博</a>
+                            <a href="###" class="a2">九机贴吧</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 最底部 -->
+            <div class="foot-bottom">
+                <div class="content">
+                    <!-- 底部的底部的导航 -->
+                    <div class="bottom-list">
+                        <a href="###">常见问题</a>
+                        <a href="###">供应商申请</a>
+                        <a href="###">配送服务</a>
+                        <a href="###">招聘信息</a>
+                        <a href="###">关于我们</a>
+                        <a href="###">联系我们</a>
+                        <a href="###">投诉建议</a>
+                        <a href="###">地区报价</a>
+                        <a href="###">IT服务</a>
+                    </div>
+
+                    <!-- 版本信息 -->
+                    <div class="copy">
+                        <p>各门店营业时间：周一至周日 09:00-21:30 &nbsp;&nbsp;&nbsp;&nbsp;
+                            全国服务热线：400-008-3939&nbsp;&nbsp; 0871-68393939&nbsp;&nbsp;&nbsp;&nbsp;
+                            工作时间：周一至周日 09:00-21:30
+                        </p>
+                        <p>
+                            网站ICP备案号：<a href="###">滇ICP备06002001号</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            电信业务经营许可证：滇B2-20180054号&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="###">滇公网安备 53010202000261号</a>
+                        </p>
+                        <p>Copyright © 2006 - 2019 九机网 All Rights Reserved</p>
+                        <p>云南九机信息技术有限公司版权所有</p>
+                    </div>
+
+                    <!-- 链接 -->
+                    <div class="bottom-link">
+                        <a href="###"><img src="img/link1.jpg"></a>
+                        <a href="###"><img src="img/link2.png"></a>
+                        <a href="###"><img src="img/link3.png"></a>
+                        <a href="###"><img src="img/link4.png"></a>
+                        <a href="###"></a>
+                        <a href="###"><img src="img/link6.jpg"></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+
+
+        <!-- 右边导航条 -->
+        <div class="tool-bar">
+            <div class="middle-bar">
+                <a href="html/cart.html">
+                    <i class="icon" style="background-position:-25px -332px"></i>
+                    <div>购物车</div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -75px -332px"></i>
+                    <div>附近门店</div>
+                </a><a href="###">
+                    <i class="icon" style="background-position: -100px -332px"></i>
+                    <div>咨询客服</div>
+                </a><a href="###">
+                    <i class="icon" style="background-position: 0 -357px"></i>
+                    <div>投诉建议</div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -25px -357px"></i>
+                    <div class="weixin">
+                        <img src="img/appdown.png" width="90" height="90">
+                    </div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -100px -357px"></i>
+                    <div>产品对比</div>
+                </a>
+            </div>
+            <a class="go-top">
+                <i class="icon" style="background-position:0 -332px"></i>
+                <div>回到顶部</div>
+            </a>
+        </div>
+
+        <!-- 左边楼层跳跃 -->
+        <div class="content">
+            <div id="elevator">
+                <a href="#discount" class="active">超优惠</a>
+                <a href="#frist">手机</a>
+                <a href="#second">手机配件</a>
+                <a href="#third">电脑办公</a>
+                <a href="#fourth">时尚影音</a>
+                <a href="#fifth">智能家居</a>
+                <a href="#sixth">智能穿戴</a>
+                <a href="#moreGood">更多好货</a>
+                <a class="go-top">返回顶部</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+<script src="lib/jquery-1.10.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/banner.js"></script>
+<script src="js/index.js"></script>
+<script>
+    (function () {
+        function init() {
+            let username = getCookie('username');
+            // console.log(username);
+            let html = '';
+            if (username) {
+                html = `
+                <span>Hi,<a href="###" title="进入个人中心">${username}</a></span>
+                <a href="###"><i class="userlevel" title="用户等级"></i></a>
+                <a href="###"><i class="userpoint" title="我的积分"></i>0</a>
+                <a href="###"><i class="massage" title="消息"></i></a>
+                <a href="###" id="signOut">退出</a>
+                `;
+            } else {
+                html = `
+                <span>HI，欢迎来九机！</span>
+                <a href="html/login.html" data-id='1' id="loginA">登录</a>
+                <a href="html/register.html">免费注册</a>
+                `;
+            }
+            $('#loginText').html(html);
+        }
+        init();
+        // 2.右侧导航栏回到顶部
+        window.onscroll = function () {
+            // 回到顶部
+            if (window.scrollY >= 100) {
+                $('.go-top').css('display', 'block');
+                $('.go-top').click(function () {
+                    // 缓慢回到顶部
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            } else {
+                $('.go-top').css('display', 'none');
+            }
+        }
+
+        // 3.跳转登录页之前记录地址
+        $('#loginText').on('click', '#loginA', function () {
+            console.log(666);
+            let comeFrom = location.href;
+            setCookie('comeFrom', comeFrom, 1);
+        });
+
+        // 4.退出功能
+        $('#loginText').on('click', '#signOut', function () {
+            removeCookie('username');
+            setTimeout(function () {
+                init();
+            }, 500);
+        });
+        // 5.跳转搜索页
+        $('#searchBtn').click(function () {
+            // 获取搜索框的内容
+            let keyWord = $('#serch-tex').val();
+            if (!keyWord) {
+                keyWord = $('#serch-tex').attr('placeholder');
+            }
+            // 跳转
+            // console.log(keyWord);
+            location.href = 'html/list.html?keyWord=' + keyWord;
+        });
+    })();
+</script>
+
+</html>

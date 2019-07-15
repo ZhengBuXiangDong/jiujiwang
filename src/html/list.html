@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品搜索</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/detail.css">
+    <link rel="stylesheet" href="../css/list.css">
+</head>
+
+<body>
+    <div class="jiujilist">
+        <!-- 顶部信息 -->
+        <div class="top">
+            <div class="content">
+                <!-- 登录和注册 -->
+                <p class="loginText" id="loginText">
+                    <span>HI，欢迎来九机！</span>
+                    <a href="login.html" id="loginA" data-id='2'>登录</a>
+                    <a href="register.html">免费注册</a>
+                </p>
+                <!-- 顶部菜单 -->
+                <ul class="topManu">
+                    <li class="personOut li1">
+                        <a href="#" class="person">个人中心</a>
+                        <div class="erji person-show">
+                            <a href="###">我的订单</a>
+                            <a href="###">我的积分</a>
+                            <a href="###">我的试用</a>
+                            <a href="###">我的收藏</a>
+                            <a href="###">我的咨询</a>
+                            <a href="###">我的优惠券</a>
+                            <a href="###">报修/退换货</a>
+                        </div>
+
+                    </li>
+                    <li><a href="#" class="hy">会员俱乐部</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="khdLi li1">
+                        <a href="#" class="khd ">客户端</a>
+                        <div class="khd-show">
+                            <p class="left">
+                                <img src="../img/appdown.png">
+                                <span>扫描二维码下载</span>
+                            </p>
+                            <p class="right">
+                                <a href="###" title="下载安卓客户端">Android</a>
+                                <a href="###" title="下载iPhone客户端">iPhone</a>
+                                <a href="###" title="访问触屏版">触屏版</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">在线客服</a></li>
+                    <li class="dhLi li1">
+                        <a href="#" class="dh ">网站导航</a>
+                        <div class="dh-show">
+                            <ul>
+                                <li>
+                                    <p class="title" style="color: orange">九机特色</p>
+                                    <a href="###">附近门店</a>
+                                    <a href="###">一手优品</a>
+                                    <a href="###">二手良品</a>
+                                    <a href="###">旧机回收</a>
+                                    <a href="###">预约维修</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: purple">服务集市</p>
+                                    <a href="###">在线支付</a>
+                                    <a href="###">话费充值</a>
+                                    <a href="###">试用中心</a>
+                                    <a href="###">帮助中心</a>
+                                    <a href="###">九机服务</a>
+                                    <a href="###">会员俱乐部</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #73ae37">更多精选</p>
+                                    <a href="###">九机头条</a>
+                                </li>
+                                <li>
+                                    <p class="title" style="color: #ff5050">产品选择</p>
+                                    <a href="###">手机</a>
+                                    <a href="###">手机配件</a>
+                                    <a href="###">电脑办公</a>
+                                    <a href="###">时尚影音</a>
+                                    <a href="###">智能家居</a>
+                                    <a href="###">娱乐竞技</a>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="jubao">不良信息举报</a></li>
+                    <li class="telLi li1">
+                        <a href="#" class="tel" style="color: #6b6b6b">400-008-3939</a>
+                        <div class="tel-show">
+                            <p>输入手机号码<span style="color: green">免费</span>拨打: </p>
+                            <input type="text">
+                            <button>拨打</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- header部分 -->
+        <header>
+            <div class="content">
+                <div class="header-top">
+                    <!-- logo和地区 -->
+                    <div class="logo-box">
+                        <h1>九机网</h1>
+                        <div>
+                            <p class="p1">花都区</p>
+                            <p class="p2">全场免邮配送</p>
+                        </div>
+                    </div>
+                    <!-- 热门搜索 -->
+                    <div class="search">
+                        <p>
+                            <input type="text" id="serch-tex" placeholder="华为 P30">
+                            <input type="button" id="searchBtnNow" value="搜索">
+                        </p>
+                        <p>
+                            热门搜索：
+                            <a href="###">华为 P30</a>
+                            <a href="###">华为 nova 5</a>
+                            <a href="###">荣耀 20</a>
+                            <a href="###">iPhone XR</a>
+                            <a href="###">华为 mate 20</a>
+                            <a href="###">AirPods 2</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- 导航 -->
+                <div class="header-nav">
+                    <dl class="navigation">
+                        <dt>全部商品分类</dt>
+                        <dd class="left-nav">
+                            <ul id="nav-list">
+                                <li>
+                                    <p>
+                                        <i class="icon "></i>
+                                        <a href="###">手机通讯</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">华为 P30</a>
+                                        <a href="###">三星 S10</a>
+                                        <a href="###">小米9</a>
+                                        <a href="###">华为 Mate20</a>
+                                        <a href="###">iPhone XR</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="icon i2"></i>
+                                        <a href="###">智能家居/智能健康</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">加湿器</a>
+                                        <a href="###">电动牙刷</a>
+                                        <a href="###">插座</a>
+                                        <a href="###">智能电视</a>
+                                        <a href="###">智能安防</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="icon i3"></i>
+                                        <a href="###">智能穿戴/智能出行</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">智能手表</a>
+                                        <a href="###">智能手环</a>
+                                        <a href="###">儿童手表</a>
+                                        <a href="###">车载充电器</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="icon i4"></i>
+                                        <a href="###">手机配件</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">保护膜</a>
+                                        <a href="###">保护壳</a>
+                                        <a href="###">数据线</a>
+                                        <a href="###">充电器</a>
+                                        <a href="###">移动电源</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="icon i5"></i>
+                                        <a href="###">手机办公</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">平板电脑</a>
+                                        <a href="###">轻薄本</a>
+                                        <a href="###">游戏本</a>
+                                        <a href="###">路由器</a>
+                                        <a href="###">键盘/鼠标</a>
+                                        <a href="###">U盘</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="icon i6"></i>
+                                        <a href="###">时尚影音/娱乐竞技</a>
+                                        <b>></b>
+                                    </p>
+                                    <div>
+                                        <a href="###">Beats</a>
+                                        <a href="###">SONY</a>
+                                        <a href="###">华为</a>
+                                        <a href="###">Bose</a>
+                                        <a href="###">智能语音</a>
+                                        <a href="###">无人机</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="nav-box" id="nav-box">
+                                <img src="../img/banner_erji.png">
+                            </div>
+                        </dd>
+
+                    </dl>
+                    <ul>
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="###">旧机回收</a></li>
+                        <li><a href="###">一手优品</a></li>
+                        <li><a href="###">二手良品</a></li>
+                        <li class="sh">
+                            <a href="###">售后维修</a>
+                            <div class="nav2">
+                                <a href="###">售后公告</a>
+                                <a href="###">常见问题</a>
+                            </div>
+                        </li>
+                        <li class="hot">
+                            <a href="###">九级头条</a>
+                            <div class="nav2">
+                                <a href="###">行业资讯</a>
+                                <a href="###">数码评测</a>
+                                <a href="###">手机导购</a>
+                            </div>
+                        </li>
+                        <li><a href="###">人气排行</a></li>
+                        <li><a href="###">九机小店</a></li>
+                    </ul>
+                </div>
+                <!-- 购物车 -->
+                <div class="header-car">
+                    <a href="cart.html">
+                        <i class="iconfont icon-gouwuche"></i>
+                        <span>购物车</span>
+                        <span id="goodNum">0</span>
+                    </a>
+                    <div class="car-show">
+                        <div class="car-nothing">
+                            <img src="../img/car.png">
+                            <p>购物车里还没有商品</p>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <!-- 主要内容 -->
+        <main>
+            <div class="content">
+                <!-- 位置信息 -->
+                <p class="position">
+                    <i></i>
+                    <a href="../index.html">首页</a> /
+                    <a href="###" class="type ">手机通讯</a>
+                </p>
+
+                <!-- 数据列表 -->
+                <div class="products">
+                    <!-- 左侧栏 -->
+                    <div class="proleft">
+                        <!-- 全部分类 -->
+                        <div class="classfiy border">
+                            <h4 class="box-title">全部分类</h4>
+                            <dl>
+                                <dt>手机通讯<span>(243)</span><i>+</i></dt>
+                                <dd></dd>
+                            </dl>
+                        </div>
+                        <!-- 最新上架的商品 -->
+                        <div class="border newCome">
+                            <h4 class="box-title">最新上架的商品</h4>
+                            <a href="###">
+                                <img src="../css/img/newCome1.jpg">
+                                <p>￥5900</p>
+                                <p>三星 Galaxy S10 (SM-G9738) 4G+全网通版</p>
+                            </a>
+                            <a href="###">
+                                <img src="../css/img/newCome2.jpg">
+                                <p>￥1550</p>
+                                <p>红米 Redmi Note 7 Pro 全网通版</p>
+                            </a>
+                            <a href="###">
+                                <img src="../css/img/newCome3.jpg">
+                                <p>￥1599</p>
+                                <p>华为 nova 4e （MAR-AL00）全网通版</p>
+                            </a>
+                            <a href="###">
+                                <img src="../css/img/newCome4.jpg">
+                                <p>￥2798</p>
+                                <p>vivo X27 全网通版</p>
+                            </a><a href="###">
+                                <img src="../css/img/newCome5.jpg">
+                                <p>￥2998</p>
+                                <p>vivo iQOO 全网通版</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 右侧栏 -->
+                    <div class="proright">
+                        <!-- 筛选 -->
+                        <div class="border option">
+                            <!-- 标题 -->
+                            <div class="box-title ">
+                                <b class="type">手机</b>
+                                <span>共搜索到<i class="allnums">243</i>个商品</span>
+                            </div>
+
+                            <!-- 内容 -->
+                            <div class="screening-box">
+                                <!-- 价格 -->
+                                <div class="item">
+                                    <span class="itemleft">价格：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">0-599</a>
+                                        <a href="###">600-999</a>
+                                        <a href="###">1000-1999</a>
+                                        <a href="###">2000-2999</a>
+                                        <a href="###">3000-3999</a>
+                                        <a href="###">4000-4999</a>
+                                        <a href="###">5000以上</a>
+                                        <a href="###">稀缺高端</a>
+                                    </div>
+                                </div>
+                                <!-- 运行内存 -->
+                                <div class="item">
+                                    <span class="itemleft">运行内存：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">4GB</a>
+                                        <a href="###">6GB</a>
+                                        <a href="###">8GB</a>
+                                        <a href="###">1GB</a>
+                                        <a href="###">2GB</a>
+                                        <a href="###">3GB</a>
+                                        <a href="###">10GB</a>
+                                        <a href="###">12GB</a>
+                                        <a href="###">1GB以下</a>
+                                    </div>
+                                </div>
+
+                                <!-- 机身内存 -->
+                                <div class="item">
+                                    <span class="itemleft">机身内存：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">64GB</a>
+                                        <a href="###">128GB</a>
+                                        <a href="###">32GB</a>
+                                        <a href="###">4GB</a>
+                                        <a href="###">16GB</a>
+                                        <a href="###">256GB</a>
+                                        <a href="###">512GB</a>
+                                        <a href="###">1TB</a>
+                                        <a href="###">1GB以下</a>
+                                    </div>
+                                </div>
+
+                                <!-- 屏幕尺寸范 -->
+                                <div class="item">
+                                    <span class="itemleft">屏幕尺寸范</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">6.5英寸以上</a>
+                                        <a href="###">6.0-6.5英寸</a>
+                                        <a href="###">5.6-5.99英寸</a>
+                                        <a href="###">5.5-5.0英寸</a>
+                                        <a href="###">4.9-4.1英寸</a>
+                                        <a href="###">4.0英寸及以下</a>
+                                    </div>
+                                </div>
+
+                                <!-- 指纹识别 -->
+                                <div class="item">
+                                    <span class="itemleft">指纹识别：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">不支持</a>
+                                        <a href="###">屏幕指纹</a>
+                                        <a href="###">背面指纹</a>
+                                        <a href="###">侧面指纹</a>
+                                        <a href="###">正面指纹</a>
+                                    </div>
+                                </div>
+
+                                <!-- 产品特点 -->
+                                <div class="item">
+                                    <span class="itemleft">产品特点：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">屏幕指纹</a>
+                                        <a href="###">面部识别解锁</a>
+                                        <a href="###">无线充电</a>
+                                        <a href="###">全面屏</a>
+                                        <a href="###">防水防尘</a>
+                                        <a href="###">液冷散热</a>
+                                        <a href="###">后置三摄像头</a>
+                                        <a href="###">前置双摄像头</a>
+                                        <a href="###">红外遥控</a>
+                                    </div>
+                                </div>
+
+                                <!-- 快速充电 -->
+                                <div class="item">
+                                    <span class="itemleft">快速充电：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">支持</a>
+                                        <a href="###">不支持</a>
+                                    </div>
+                                </div>
+
+                                <!-- 操作系统 -->
+                                <div class="item">
+                                    <span class="itemleft">操作系统：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">苹果</a>
+                                        <a href="###">安卓</a>
+                                        <a href="###">基础功能机</a>
+                                    </div>
+                                </div>
+
+                                <!-- 处理器品牌 -->
+                                <div class="item">
+                                    <span class="itemleft">处理器品牌：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">苹果A系列</a>
+                                        <a href="###">高通骁龙</a>
+                                        <a href="###">海思麒麟</a>
+                                        <a href="###">联发科</a>
+                                        <a href="###">三星猎户座</a>
+                                        <a href="###">其他</a>
+                                    </div>
+                                </div>
+
+                                <!-- 核心数 -->
+                                <div class="item">
+                                    <span class="itemleft">核心数：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">八核</a>
+                                        <a href="###">四核</a>
+                                        <a href="###">双核</a>
+                                        <a href="###">六核</a>
+                                        <a href="###">非智能</a>
+                                        <a href="###">十核</a>
+                                    </div>
+                                </div>
+
+                                <!-- 机身厚度 -->
+                                <div class="item">
+                                    <span class="itemleft">机身厚度：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">7mm以下</a>
+                                        <a href="###">7mm-8.5mm</a>
+                                        <a href="###">8.5mm以上</a>
+                                    </div>
+                                </div>
+
+                                <!-- 数据接口 -->
+                                <div class="item">
+                                    <span class="itemleft">数据接口：</span>
+                                    <div class="itemright">
+                                        <a href="###" class="active">全部</a>
+                                        <a href="###">Lightning</a>
+                                        <a href="###">Micro USB</a>
+                                        <a href="###">Type-C</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 更多选项 -->
+                        <div id="moreOption">更多选项...</div>
+                        <!-- 排序方式 -->
+                        <div class="sort-bar">
+
+                            <!-- 排序 -->
+                            <div class="sort">
+                                <span id="zonghe" class="active">综合</span>
+                                <span id="jiage">价格<b>
+                                        <i class="toTop "></i>
+                                        <i class="toDown"></i>
+                                    </b></span>
+                                <span id="zuixin">最新上架</span>
+                            </div>
+                            <!-- 仅显示有货 -->
+                            <div class="in-stock" id="yes">
+                                <i>√</i>
+                                <span>仅显示有货</span>
+                            </div>
+                            <!-- 根据价格查找 -->
+                            <div class="price-section">
+                                价格区间：<input type="text" id="lower">-<input type="text" id="higher">
+                                <button id="priBtn">确定</button>
+                            </div>
+                            <!-- 换页 -->
+                            <div class="pagination">
+                                <i class="pre"></i>
+                                <span class="pageNow">1</span>/<span class="allPage" id="pages">21</span>
+                                <i class="nextPage"></i>
+                            </div>
+                        </div>
+                        <!-- 列表框 -->
+                        <div class="proList">
+                            <!-- 产品列表 -->
+                            <ul class="listBox">
+                                <li data-id="1">
+                                    <img src="../img/changxiang9plus-bigPic2.jpg" class="bigPic">
+                                    <span class="quehuo">缺货</span>
+                                    <div class="smallPics">
+                                        <img src="../img/changxiang9plus-bigPic2.jpg" class="active">
+                                        <img src="../img/changxiang9plus-bigPic3.jpg">
+                                        <img src="../img/changxiang9plus-bigPic4.jpg">
+                                    </div>
+                                    <a href="###" class="title">华为 P30 Pro 全网通版 亮黑色 8GB+128GB
+                                        【影像之美】超感光徕卡四摄！麒麟980智慧大脑！</a>
+                                    <div class="price">￥5488</div>
+                                    <p>已有 <span>1285</span> 人评价</p>
+                                    <div class="tool">
+                                        <a href="###">对比</a>
+                                        <a href="###">收藏</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- 分页框 -->
+                            <div class="pageBox">
+                                <div class="flex">
+                                    <span>共 <i class="allnums">242</i> 条</span>
+                                    <button class="pre">&lt;</button>
+                                    <ul id="pageItem">
+                                        <li class="active">1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                    </ul>
+                                    <button class="nextPage">></button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+        </main>
+
+        <!-- footer底部 -->
+        <footer>
+            <!-- 承诺 -->
+            <div class="promise">
+                <div class="content">
+                    <div>
+                        <i></i>
+                        <h4>新九机 心生态</h4>
+                        <p>全新九机 用心可见</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>售假退一罚三</h4>
+                        <p>我们承诺，只做正品</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>90分钟极速达</h4>
+                        <p>自建物流，直达客户</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>上门快修</h4>
+                        <p>线上预约维修，在线评估故障</p>
+                    </div>
+                    <div>
+                        <i></i>
+                        <h4>门店保障</h4>
+                        <p>实体购物，更加安心</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 底部导航 -->
+            <div class="foot-nav">
+                <div class="content">
+                    <dl>
+                        <dt>新手指南</dt>
+                        <dd>
+                            <a href="###">会员注册与使用</a>
+                            <a href="###">九机测评</a>
+                            <a href="###">积分介绍</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>付款方式</dt>
+                        <dd>
+                            <a href="###">在线支付</a>
+                            <a href="###">分期介绍</a>
+                            <a href="###">退款介绍</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>配送方式</dt>
+                        <dd>
+                            <a href="###">到店自取</a>
+                            <a href="###">送货上门</a>
+                            <a href="###">快递运输</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>
+                            <a href="###">售后服务政策</a>
+                            <a href="###">维修质保政策</a>
+                            <a href="###">九机服务</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>交易中心</dt>
+                        <dd>
+                            <a href="###">常见问题解答</a>
+                            <a href="###">会员介绍</a>
+                            <a href="###">交易条款</a>
+                        </dd>
+                    </dl>
+                    <div class="foot-sns">
+                        <div class="div1">
+                            <i></i>
+                            <h4>九机网官方微信</h4>
+                            <p>扫描二维码，即刻调戏小九，更多精彩活动等着您哦！</p>
+                        </div>
+
+                        <div class="div2">
+                            <a href="###">新浪微博</a>
+                            <a href="###" class="a2">九机贴吧</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 最底部 -->
+            <div class="foot-bottom">
+                <div class="content">
+                    <!-- 底部的底部的导航 -->
+                    <div class="bottom-list">
+                        <a href="###">常见问题</a>
+                        <a href="###">供应商申请</a>
+                        <a href="###">配送服务</a>
+                        <a href="###">招聘信息</a>
+                        <a href="###">关于我们</a>
+                        <a href="###">联系我们</a>
+                        <a href="###">投诉建议</a>
+                        <a href="###">地区报价</a>
+                        <a href="###">IT服务</a>
+                    </div>
+
+                    <!-- 版本信息 -->
+                    <div class="copy">
+                        <p>各门店营业时间：周一至周日 09:00-21:30 &nbsp;&nbsp;&nbsp;&nbsp;
+                            全国服务热线：400-008-3939&nbsp;&nbsp; 0871-68393939&nbsp;&nbsp;&nbsp;&nbsp;
+                            工作时间：周一至周日 09:00-21:30
+                        </p>
+                        <p>
+                            网站ICP备案号：<a href="###">滇ICP备06002001号</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                            电信业务经营许可证：滇B2-20180054号&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="###">滇公网安备 53010202000261号</a>
+                        </p>
+                        <p>Copyright © 2006 - 2019 九机网 All Rights Reserved</p>
+                        <p>云南九机信息技术有限公司版权所有</p>
+                    </div>
+
+                    <!-- 链接 -->
+                    <div class="bottom-link">
+                        <a href="###"><img src="../img/link1.jpg"></a>
+                        <a href="###"><img src="../img/link2.png"></a>
+                        <a href="###"><img src="../img/link3.png"></a>
+                        <a href="###"><img src="../img/link4.png"></a>
+                        <a href="###"></a>
+                        <a href="###"><img src="../img/link6.jpg"></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </footer>
+
+
+        <!-- 右边导航条 -->
+        <div class="tool-bar">
+            <div class="middle-bar">
+                <a href="cart.html">
+                    <i class=" icon" style="background-position:-25px -332px"></i>
+                    <div>购物车</div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -75px -332px"></i>
+                    <div>附近门店</div>
+                </a><a href="###">
+                    <i class="icon" style="background-position: -100px -332px"></i>
+                    <div>咨询客服</div>
+                </a><a href="###">
+                    <i class="icon" style="background-position: 0 -357px"></i>
+                    <div>投诉建议</div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -25px -357px"></i>
+                    <div class="weixin">
+                        <img src="../img/appdown.png" width="90" height="90">
+                    </div>
+                </a>
+                <a href="###">
+                    <i class="icon" style="background-position: -100px -357px"></i>
+                    <div>产品对比</div>
+                </a>
+            </div>
+            <a class="go-top">
+                <i class="icon" style="background-position:0 -332px"></i>
+                <div>回到顶部</div>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/mycommon.js"></script>
+<script src="../js/list.js"></script>
+
+</html>
